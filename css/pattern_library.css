@@ -196,6 +196,7 @@ body .page-wrapper {
 .pl-header .score-main-menu-spider .navbar-nav > li.active > a, .pl-header .score-main-menu-spider .navbar-nav > li:hover > a {
   background: transparent;
   color: #fff;
+  font-weight: 700;
 }
 .pl-header .score-main-menu-spider .navbar-nav > .multi-level {
   position: relative;
@@ -232,7 +233,7 @@ body .page-wrapper {
   padding: 12px 0 12px 12px;
 }
 .pl-header nav .navbar-nav > li .dropdown-menu.level-2 > li > a {
-  color: #000;
+  color: #FFFFFF;
   transition: all 0.3s ease;
 }
 .pl-header nav .navbar-nav > li .dropdown-menu.level-2 > li > a:hover {
