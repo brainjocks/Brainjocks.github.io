@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Page Elements Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Section Menu Stacked Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -39,7 +39,7 @@
           <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
             Component Documentation Link</a>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="navigation.html">Navigation</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -52,7 +52,7 @@
             <li>
               <a href="section-menu.html">Section Menu</a>
             </li>
-            <li>
+            <li class="active">
               <a href="section-menu-stacked.html">Section Menu(stacked)</a>
             </li>
             <li>
@@ -60,14 +60,14 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level">
           <a href="containers.html">Containers</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
             <span class="sr-only">toggle menu</span>
           </a>
           <ul class="dropdown-menu level-2" role="menu">
-            <li class="active">
+            <li>
               <a href="page-elements.html">Page Elements</a>
             </li>
             <li>
@@ -157,27 +157,21 @@
       <div class="score-center">
         <ol class="score-breadcrumb pl-breadcrumb">
           <li>
-            <a href="containers.html.html">Containers</a>
+            <a href="navigation.html">Navigation</a>
           </li>
-          <li class="active">Page Elements</li>
+          <li class="active">Section Menu(Stacked)</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Page Elements</h1>
+          <h1>Section Menu(Stacked)</h1>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="score-pl-component"> <!-- Full width version includes 1 column page layout container around .caption -->
-    <div class="container">
-      <div class="score-column1">
-        <div class="score-center">
+        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Page Elements</h3>
-            <p>Page Elements are simple containers designed to house the header and footer for the HTML document. Each
-              of these
-              containers is given it's own placeholder key and settings item since header and footer compositions can
-              vary greatly
-              from website to website.</p>
+            <h3>Section Menu(Stacked) Base Component</h3>
+            <p>Section menu rendering that looks to parent pages to find the section menu root,
+              then renders the
+              "levels" of
+              children as menu items.
+            </p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -186,19 +180,26 @@
               <ul class="dropdown-menu">
                 <li>
                   <pre>
-                    <xmp>
-                      <header class="score-header (custom class)">
-                        ...
-                      </header>
-                    </xmp>
-                    </pre>
-                  <pre>
-                      <xmp>
-                      <footer class="score-footer (custom class)">
-                        ...
-                      </footer>
-                    </xmp>
-                  </pre>
+                  <xmp>
+                  <ul class="score-section-menu nav-stacked" role="menu">
+                    <li>
+                      <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 2</a>
+                    </li>
+                    <li class="active">
+                      <a href="#">Page 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 5</a>
+                    </li>
+                  </ul><!-- /.nav-pills -->
+                  </xmp>
+                </pre>
                 </li>
               </ul>
               <a class="score-button"
@@ -206,20 +207,25 @@
                  target="_blank">Component Style Guide</a>
             </div>
           </div>
+          <!-- Place holder for content components -->
+          <ul class="score-section-menu nav-stacked" role="menu">
+            <li>
+              <a href="#">Page 1</a>
+            </li>
+            <li>
+              <a href="#">Page 2</a>
+            </li>
+            <li class="active">
+              <a href="#">Page 3</a>
+            </li>
+            <li>
+              <a href="#">Page 4</a>
+            </li>
+            <li>
+              <a href="#">Page 5</a>
+            </li>
+          </ul><!-- /.nav-pills -->
         </div>
-      </div>
-    </div>
-    <!-- Place holder for full width components -->
-    <div class="score-header"
-         style="background-color: #dddddd; padding: 30px 0; border-bottom: 10px solid #FFFFFF">
-      <div class="score-center-text">
-        <h2>Score Header Container</h2>
-      </div>
-    </div>
-    <div class="score-footer"
-         style="background-color: #cccccc; padding: 30px 0;">
-      <div class="score-center-text">
-        <h2>Score Footer Container</h2>
       </div>
     </div>
   </div>
@@ -229,7 +235,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

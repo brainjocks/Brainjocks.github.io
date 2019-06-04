@@ -6,12 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Image Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Map Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
+  <style>
+    @media (min-width: 992px) {
+      .score-column2.equal {
+        display: flex;
+      }
+
+      .score-column2.equal .score-left, .score-column2.equal .score-right {
+        display: flex;
+      }
+    }
+  </style>
 </head>
 <body>
 <header class="score-header pl-header">
@@ -25,7 +36,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -106,10 +117,10 @@
             <li>
               <a href="iframe.html">iFrame</a>
             </li>
-            <li>
+            <li class="active">
               <a href="map.html">Map</a>
             </li>
-            <li class="active">
+            <li>
               <a href="image.html">Image</a>
             </li>
             <li>
@@ -159,59 +170,76 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Image</li>
+          <li class="active">Maps</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Image</h1>
+          <h1>Map</h1>
         </div>
-        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
-          <div class="score-pl-caption">
-            <h3>Image Base Component</h3>
-            <p>Allows inserting an image into any structural container. Based on rendering params, the image can be
-              responsive to adjust to the size of the container it is inserted into. No width or height are rendered
-              with the image when selected to be responsive.</p>
-            <div class="btn-group">
-              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                View Markup <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li>
+        <div class="score-column2 equal">
+          <div class="score-left">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Map Base Component</h3>
+                <p>A simple map component with one location and location description. Based on Google Maps API.
+                  Can be inserted into any structural component.</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
                   <pre>
-                  <xmp>
-                   <img src="..." class="score-image (img-responsive) (custom class)" alt="..."/>
-                  </xmp>
-                </pre>
-                </li>
-              </ul>
-              <a class="score-button"
-                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
-                 target="_blank">Component Style Guide</a>
-            </div>
-          </div>
-          <!-- Place holder for content components -->
-          <div class="score-column2 wide-right">
-            <div class="score-left">
-              <img src="http://placehold.it/400x300&text=[score img]" class="score-image img-responsive" alt=""/>
-              <!-- ./score-image -->
-            </div>
-            <div class="score-right">
-              <img src="http://placehold.it/750x150&text=[score img]" class="score-image img-responsive" alt=""/>
-              <!-- ./score-image -->
-              <div class="score-column3 equal">
-                <div class="score-left">
-                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
-                  <!-- ./score-image -->
-                </div>
-                <div class="score-center">
-                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
-                  <!-- ./score-image -->
-                </div>
-                <div class="score-right">
-                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
-                  <!-- ./score-image -->
+                    <xmp>
+                    <div class="score-location">
+                      <div class="google-map-canvas" style="...">
+                        ... map with pins generated by Google API ...
+                      </div>
+                    </div>
+                    </xmp>
+                  </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
                 </div>
               </div>
+              <!-- Place holder for content components -->
+              <img src="img/map.png" alt="map image" class="img-responsive">
+            </div>
+          </div>
+          <div class="score-right">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Map w/Pins Base Component</h3>
+                <p>Map component which allows for multiple locations in one map. Based on Google Maps API. Can be
+                  inserted into any structural component.</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                  <pre>
+                    <xmp>
+                    <div class="score-location">
+                      <div class="google-map-canvas" style="...">
+                        ... map with pins generated by Google API ...
+                      </div>
+                    </div>
+                    </xmp>
+                  </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
+                </div>
+              </div>
+              <!-- Place holder for content components -->
+              <img src="img/map-with-pins.png" alt="map image with pins" class="img-responsive">
             </div>
           </div>
         </div>
@@ -224,7 +252,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

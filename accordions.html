@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Highlight Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Accordions Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -81,7 +81,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level  active">
           <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -100,7 +100,7 @@
             <li>
               <a href="lead.html">Lead/Plain Text</a>
             </li>
-            <li class="active">
+            <li>
               <a href="highlights.html">Features/Highlights</a>
             </li>
             <li>
@@ -121,7 +121,7 @@
             <li>
               <a href="panels.html">Panels</a>
             </li>
-            <li>
+            <li class="active">
               <a href="accordions.html">Accordions</a>
             </li>
             <li>
@@ -142,7 +142,7 @@
           </ul>
         </li>
         <li class=" " style="z-index: 1;">
-          <a href="/pattern-library/custom-components">Example Components</a>
+          <a href="/pattern-library/custom-components">Components Examples</a>
         </li>
         <li class=" " style="z-index: 1;">
           <a href="/pattern-library/Component Patterns">Component Patterns</a>
@@ -159,17 +159,16 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Highlights</li>
+          <li class="active">Accordions</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Features / Highlights</h1>
+          <h1>Accordions</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Highlight Base Component</h3>
-            <p>A highlight is a generic content element that is meant to highlight an item with a picture, title,
-              description and
-              one or more call to action elements.</p>
+            <h3>Accordion Base Component</h3>
+            <p>The Accordion component is a container for accordion panels
+              The Accordion panels are The building block of accordions</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -178,24 +177,31 @@
               <ul class="dropdown-menu">
                 <li>
                   <pre>
-                <xmp>
-                <div class="score-highlight (custom class)">
-                  <div class="score-highlight-header">
-                    ...
+                  <xmp>
+                  <div class="panel-group score-accordion
+                  (custom class)" id="...">
+                    <div class="panel score-accordion-panel
+                    (custom class)">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse"
+                             data-parent="..."
+                             href="...">
+                            ...
+                          </a>
+                        </h4>
+                      </div>
+                      <div id=""
+                           class="panel-collapse collapse">
+                        <div class="panel-body">
+                          ...
+                        </div>
+                      </div>
                   </div>
-                  <img src="..." alt="...">
-                  <div class="caption">
-                    <h2>...</h2>
-                    <div class="score-highlight-body">
-                      ...
-                    </div>
-                    <div class="score-call-to-action">
-                      ...
-                    </div>
+                    <!--accordion panel components-->
                   </div>
-                </div>
-                </xmp>
-              </pre>
+                  </xmp>
+                </pre>
                 </li>
               </ul>
               <a class="score-button"
@@ -204,21 +210,108 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <div class="score-highlight">
-            <div class="score-highlight-header">Highlight Header area</div>
-            <img class="img-responsive" src="http://placehold.it/1200x600&text=[highlight img]" alt="#">
-            <div class="caption">
-              <h2>Highlight Title h2</h2>
-              <div class="score-highlight-body">
-                <p>Highlight body text area, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac lectus id
-                  risus tincidunt aliquet
-                  non nec sem.</p>
+          <div class="score-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="score-accordion-panel">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                     aria-controls="collapseOne">
+                    Accordion Group Item #1
+                  </a>
+                </h4>
               </div>
-              <div class="score-call-to-action">
-                <a href="#" class="score-button">Learn More</a>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <div class="score-column2 wide-left">
+                    <div class="score-left">
+                      <div class="score-content-spot">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed purus
+                        in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit
+                      </div>
+                    </div>
+                    <div class="score-right">
+                      <img class="img-responsive" src="http://placehold.it/150x150" alt="#">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+            <div class="score-accordion-panel">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                     aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Group Item #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <div class="score-column2 wide-left">
+                    <div class="score-left">
+                      <div class="score-content-spot">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed purus in
+                        tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit
+                      </div>
+                    </div>
+                    <div class="score-right">
+                      <img class="img-responsive" src="http://placehold.it/150x150" alt="#">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="score-accordion-panel">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                     aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Group Item #3
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <div class="score-column2 wide-left">
+                    <div class="score-left">
+                      <div class="score-content-spot">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed purus in
+                        tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit
+                      </div>
+                    </div>
+                    <div class="score-right">
+                      <img class="img-responsive" src="http://placehold.it/150x150" alt="#">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="score-accordion-panel">
+              <div class="panel-heading" role="tab" id="headingFour">
+                <h4 class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                     aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Group Item #4
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body">
+                  <div class="score-column2 wide-left">
+                    <div class="score-left">
+                      <div class="score-content-spot">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed purus in
+                        tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit
+                      </div>
+                    </div>
+                    <div class="score-right">
+                      <img class="img-responsive" src="http://placehold.it/150x150" alt="#">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.score-accordion -->
         </div>
       </div>
     </div>
@@ -229,7 +322,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Buttons Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Bread Crumb Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -39,14 +39,14 @@
           <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
             Component Documentation Link</a>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="navigation.html">Navigation</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
             <span class="sr-only">toggle menu</span>
           </a>
           <ul class="dropdown-menu level-2" role="menu">
-            <li>
+            <li class="active">
               <a href="bread-crumb.html">BreadCrumb</a>
             </li>
             <li>
@@ -81,7 +81,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level">
           <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -115,7 +115,7 @@
             <li>
               <a href="videos.html">Videos</a>
             </li>
-            <li class="active">
+            <li>
               <a href="buttons.html">Buttons</a>
             </li>
             <li>
@@ -142,7 +142,7 @@
           </ul>
         </li>
         <li class=" " style="z-index: 1;">
-          <a href="/pattern-library/custom-components">Components Examples</a>
+          <a href="/pattern-library/custom-components">Example Components</a>
         </li>
         <li class=" " style="z-index: 1;">
           <a href="/pattern-library/Component Patterns">Component Patterns</a>
@@ -157,28 +157,19 @@
       <div class="score-center">
         <ol class="score-breadcrumb pl-breadcrumb">
           <li>
-            <a href="content-components.html">Content Components</a>
+            <a href="navigation.html">Navigation</a>
           </li>
-          <li class="active">Buttons</li>
+          <li class="active">Bread Crumbs</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Buttons</h1>
+          <h1>Bread Crumb</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Button Base Components</h3>
-            <p>A <strong>Button</strong> component is used for placing a single button on the page. Can be inserted
-              into any structural component.</p>
-            <p><strong>Button toolbar</strong> is used for placing toolbars to the page consisting of button-based
-              components such as: Button, Button Group, Button Menu,
-              Split Button Menu, Image Button.</p>
-            <p><strong>Button group</strong> is used for placing a group of buttons on the page.</p>
-            <p><strong>Button Menu</strong> is used for placing button menu on the page. A button menu has popup (or
-              under) menu options that are shown when the button
-              is clicked. The button itself does not link to any other location.</p>
-            <p>An<strong> Image Button</strong> is an image that is wrapped with a link.</p>
-            <p>A<strong> Split Button Menu </strong>is a split item - the first 1/2 is a button renderings, the
-              second part is a pull down (or up) menu represented by an up or down arrow.</p>
+            <h3>Bread Crumb Base Component</h3>
+            <p>Breadcrumb is an inspector type navigation rendering.
+              It looks at the site structure and recurses up the site tree finding pages that will be included in
+              the breadcrumb.</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -188,48 +179,12 @@
                 <li>
                   <pre>
                   <xmp>
-                  <a href="..." class="score-button (style class) (size class) (custom class)">...</a>
-
-                  <div class="score-button-toolbar (custom class)" role="toolbar">
-                  </div>
-
-                  <div class="score-button-group (custom class)">
-                  </div>
-
-                  <div class="score-button-menu (custom direction) (custom class)">
-                    <button type="button" class="btn (custom class) (custom size)"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        ... button title ...
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle</span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        ... menu content ...
-                    </ul>
-                  </div>
-
-                  <a href="..." class="score-image-button (custom class)">
-                    <img src="..." class="(img-responsive) (custom class)" alt="..."/>
-                  </a>
-
-                  <div class="score-split-button-menu (custom class)">
-                    <a href="..." class="btn (button size)">...</a>
-                    <button type="button" class="btn (button size)" data-toggle="dropdown">
-                      <span class="caret"></span>
-                      <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                      ... button menu items ...
-                    </ul>
-                  </div>
-
-                  <a href="..." class="score-composite-link">
-                  </a>
-
-                  <a href="#" class="score-image-button">
-                    <img src="http://placehold.it/250x150&text=[image button]" class="img-responsive" alt="..." />
-                  </a>
-                    <!-- ./score-image-button -->
+                  <ol class="score-breadcrumb (custom class)" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                    <li class="score-breadcrumb-item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                      <a href="/" itemprop="item" title="">...</a>
+                    </li>
+                    <li class="score-breadcrumb-item active">...</li>
+                  </ol>
                   </xmp>
                 </pre>
                 </li>
@@ -240,66 +195,15 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <a href="#" class="score-button" style="margin: 0 8px 8px 0;">Default Button</a>
-          <a href="#" class="score-button btn-primary" style="margin: 0 8px 8px 0;">Primary Button</a>
-          <a href="#" class="score-button btn-success" style="margin: 0 8px 8px 0;">Success Button</a>
-          <a href="#" class="score-button btn-info" style="margin: 0 8px 8px 0;">Info Button</a>
-          <a href="#" class="score-button btn-warning" style="margin: 0 8px 8px 0;">
-            Warning Button</a>
-          <a href="#" class="score-button btn-danger" style="margin: 0 8px 8px 0;">
-            Danger Button</a>
-          <div class="score-button-toolbar" role="toolbar">
-            <a href="#" class="score-button" style="margin: 0 8px 8px 0;">Button Toolbar 1</a>
-            <a href="#" class="score-button" style="margin: 0 8px 8px 0;">Button Toolbar 2</a>
-          </div>
-          <!-- ./score-button-toolbar -->
-          <div class="score-button-group">
-            <a href="#" class="score-button" style="margin: 0 8px 8px 0;">Button Group 1</a>
-            <a href="#" class="score-button" style="margin: 0 8px 8px 0;">Button Group 2</a>
-          </div>
-          <!-- ./score-button-group -->
-          <div class="score-button-menu" style="margin: 0 8px 8px 0;">
-            <button type="button" class="score-button" data-toggle="dropdown">
-              Button Menu
-              <span class="caret"></span>
-              <span class="sr-only">Toggle</span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li class="score-button-menu-item">
-                <a href="#">Button Menu Item</a>
-              </li>
-              <li class="score-menu-list-divider divider">
-                <span class="sr-only">divider</span>
-              </li>
-              <li class="score-button-menu-item">
-                <a href="#">Button Menu Item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- ./score-button-menu -->
-          <div class="score-split-button-menu" style="margin: 0 8px 8px 0;">
-            <a href="/" class="score-button">Split Button Menu</a>
-            <button type="button" class="score-button" data-toggle="dropdown">
-              <span class="caret"></span>
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li class="score-button-menu-item">
-                <a href="#">Button Menu Item</a>
-              </li>
-              <li class="score-menu-list-divider divider">
-                <span class="sr-only">divider</span>
-              </li>
-              <li class="score-button-menu-item">
-                <a href="#">Button Menu Item</a>
-              </li>
-            </ul>
-          </div>
-          <!-- ./score-split-button-menu -->
-          <a href="#" class="score-image-button">
-            <img src="http://placehold.it/250x150&text=[image button]" class="img-responsive" alt="..." />
-          </a>
-          <!-- ./score-image-button -->
+          <ol class="score-breadcrumb">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/">Last Page</a>
+            </li>
+            <li class="active">Current Page</li>
+          </ol><!-- /.breadcrumb -->
         </div>
       </div>
     </div>
@@ -310,7 +214,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

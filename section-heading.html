@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Section Menu Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Section Headers Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -39,7 +39,7 @@
           <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
             Component Documentation Link</a>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level">
           <a href="navigation.html">Navigation</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -49,7 +49,7 @@
             <li>
               <a href="bread-crumb.html">BreadCrumb</a>
             </li>
-            <li class="active">
+            <li>
               <a href="section-menu.html">Section Menu</a>
             </li>
             <li>
@@ -81,7 +81,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -91,7 +91,7 @@
             <li>
               <a href="document-headers.html">Document Headers</a>
             </li>
-            <li>
+            <li class="active">
               <a href="section-heading.html">Section Headers</a>
             </li>
             <li>
@@ -157,21 +157,21 @@
       <div class="score-center">
         <ol class="score-breadcrumb pl-breadcrumb">
           <li>
-            <a href="navigation.html">Navigation</a>
+            <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Section Menu</li>
+          <li class="active">Section Headers</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Section Menu</h1>
+          <h1>Section Headers/Section Heroes</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Section Menu Base Component</h3>
-            <p>Section menu rendering that looks to parent pages to find the section menu root,
-              then renders the
-              "levels" of
-              children as menu items.
-            </p>
+            <h3>Section Header Base Component</h3>
+            <p>Allows inserting a page header that requires in addition to the title the subtitle.
+              Offers image,
+              secondary line
+              of h2 text and h3 line.
+              - all of which are not rendered if the corresponding fields are empty.</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -179,63 +179,103 @@
               </button>
               <ul class="dropdown-menu">
                 <li>
+                  <!-- Rich text area -->
                   <pre>
-                  <xmp>
-                  <ul class="score-section-menu nav-pills" role="menu" style="box-shadow: none;">
-                    <li>
-                      <a href="#">Page 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Page 2</a>
-                    </li>
-                    <li class="active">
-                      <a href="#">Page 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Page 4</a>
-                    </li>
-                    <li>
-                      <a href="#">Page 5</a>
-                    </li>
-                  </ul><!-- /.nav-pills -->
-                  </xmp>
-                </pre>
+                <xmp>
+                <div class="score-document-header-with-subtitle (custom class)">
+                  <div class="score-header-image">
+                    <img src="..." class="(image style)" alt="#"/>
+                  </div>
+                  <h1>...
+                    <br/>
+                  </h1>
+                  <h2>...</h2>
+                </div>
+                </xmp>
+              </pre>
                 </li>
               </ul>
               <a class="score-button"
                  href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
-                 target="_blank">Component Style Guide</a>
+                 target="_blank">Score Developer Documentation</a>
             </div>
           </div>
           <!-- Place holder for content components -->
-          <ul class="score-section-menu nav-pills" role="menu" style="box-shadow: none;">
-            <li>
-              <a href="#">Page 1</a>
-            </li>
-            <li>
-              <a href="#">Page 2</a>
-            </li>
-            <li class="active">
-              <a href="#">Page 3</a>
-            </li>
-            <li>
-              <a href="#">Page 4</a>
-            </li>
-            <li>
-              <a href="#">Page 5</a>
-            </li>
-          </ul><!-- /.nav-pills -->
+          <div class="score-document-header">
+            <div class="score-header-image">
+              <img src="http://placehold.it/1200x600&text=[section-heading img]" class="img-responsive" alt=""/>
+            </div>
+            <h2>Section Header line 1
+              <br/>Section Header line 2</h2>
+            <h3>Section Header h2 line</h3>
+          </div><!-- ./doc header -->
+        </div>
+        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+          <div class="score-pl-caption">
+            <h3>Section Hero Base Component</h3>
+            <p>Allows inserting a page header.
+              Offers image,
+              secondary line
+              of h2 text, h3, body text(Rich text editor), and a call to action.
+              - all of which are not rendered if the corresponding fields are empty.</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <!-- Rich text area -->
+                  <pre>
+                    <xmp>
+                    <div class="score-section-hero (custom class)" style="">
+                      <div class="score-hero-image">
+                        <img src="..." alt="...">
+                      </div>
+                      <h2>
+                        Title Line 1 <br/> Title Line 2 </h2>
+                      <h3>Hero Subtitle</h3>
+                      <div class="score-hero-body">
+                        <!--hero body-->
+                      </div>
+                      <div class="score-call-to-action">
+                        <!--call to action-->
+                      </div>
+                    </div>
+                    </xmp>
+                  </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Score Developer Documentation</a>
+            </div>
+          </div>
+          <!-- Place holder for content components -->
+          <div class="score-section-hero" style="color:#000000; background-color: #efefef;">
+            <div class="score-hero-image">
+              <img src="http://placehold.it/1920x630&text=[section-hero img]" class="img-responsive" alt="">
+            </div>
+            <h2>Hero Header line 1
+              <br>Hero Header line 2</h2>
+            <h3>Hero subtitle</h3>
+            <div class="score-hero-body">
+              Hero body text. Lorem ipsum dolor sit amet.
+            </div>
+            <div class="score-call-to-action">
+              <a href="/" class="score-button">Button</a>
+            </div>
+          </div><!-- ./score-hero -->
         </div>
       </div>
     </div>
   </div>
-</div>
-<footer style="background-color: #F8F8F8;">
+  <footer style="background-color: #F8F8F8;">
   <div class="container">
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">
@@ -247,21 +287,21 @@
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-<script>
-    $(function () {
-        //prevents dropdown from closing when clicked inside
-        $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
-            e.stopPropagation();
-        });
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+  <script>
+      $(function () {
+          //prevents dropdown from closing when clicked inside
+          $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
+              e.stopPropagation();
+          });
 
-        //Score Components dropdown animation
-        $('.dropdown-toggle').click(function () {
-            $(this).next('.dropdown-menu').slideToggle(300);
-        });
+          //Score Components dropdown animation
+          $('.dropdown-toggle').click(function () {
+              $(this).next('.dropdown-menu').slideToggle(300);
+          });
 
-    });
-</script>
+      });
+  </script>
 </body>
 </html>

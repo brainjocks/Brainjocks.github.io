@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Progress bar Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Image Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -109,7 +109,7 @@
             <li>
               <a href="map.html">Map</a>
             </li>
-            <li>
+            <li class="active">
               <a href="image.html">Image</a>
             </li>
             <li>
@@ -136,7 +136,7 @@
             <li>
               <a href="slick-slider.html">Slick Slider</a>
             </li>
-            <li class="active">
+            <li>
               <a href="progress-bar.html">Progress Bar</a>
             </li>
           </ul>
@@ -159,15 +159,17 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Progress Bar</li>
+          <li class="active">Image</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Progress Bar</h1>
+          <h1>Image</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Progress Base Component</h3>
-            <p>A progress bar or indicator nested within a progress area.</p>
+            <h3>Image Base Component</h3>
+            <p>Allows inserting an image into any structural container. Based on rendering params, the image can be
+              responsive to adjust to the size of the container it is inserted into. No width or height are rendered
+              with the image when selected to be responsive.</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -177,11 +179,7 @@
                 <li>
                   <pre>
                   <xmp>
-                  <div class="score-component score-progress-bar progress-bar" role="progressbar" aria-valuenow=""
-                       aria-valuemin="0"
-                       aria-valuemax="100" style="width: 100%">
-                    <span class="sr-only">% Complete</span>
-                  </div>
+                   <img src="..." class="score-image (img-responsive) (custom class)" alt="..."/>
                   </xmp>
                 </pre>
                 </li>
@@ -192,15 +190,30 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <div class="score-content-spot">
-            <h3>Score Progress area/bar</h3>
+          <div class="score-column2 wide-right">
+            <div class="score-left">
+              <img src="http://placehold.it/400x300&text=[score img]" class="score-image img-responsive" alt=""/>
+              <!-- ./score-image -->
+            </div>
+            <div class="score-right">
+              <img src="http://placehold.it/750x150&text=[score img]" class="score-image img-responsive" alt=""/>
+              <!-- ./score-image -->
+              <div class="score-column3 equal">
+                <div class="score-left">
+                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
+                  <!-- ./score-image -->
+                </div>
+                <div class="score-center">
+                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
+                  <!-- ./score-image -->
+                </div>
+                <div class="score-right">
+                  <img src="http://placehold.it/300x120&text=[score img]" class="score-image img-responsive" alt=""/>
+                  <!-- ./score-image -->
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="score-progress-area">
-            <div class="score-progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"
-                 style="width: 50%">
-              <span class="sr-only">50% Complete</span>
-            </div><!-- ./score-progress-bar -->
-          </div><!-- ./score-progress-area -->
         </div>
       </div>
     </div>
@@ -211,7 +224,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

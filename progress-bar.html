@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Video Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Progress bar Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -112,7 +112,7 @@
             <li>
               <a href="image.html">Image</a>
             </li>
-            <li class="active">
+            <li>
               <a href="videos.html">Videos</a>
             </li>
             <li>
@@ -136,7 +136,7 @@
             <li>
               <a href="slick-slider.html">Slick Slider</a>
             </li>
-            <li>
+            <li class="active">
               <a href="progress-bar.html">Progress Bar</a>
             </li>
           </ul>
@@ -159,15 +159,15 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Videos</li>
+          <li class="active">Progress Bar</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Videos</h1>
+          <h1>Progress Bar</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Video Base Component</h3>
-            <p>Represents an iframe html tag inside the page. Can be inserted into any structural component.</p>
+            <h3>Progress Base Component</h3>
+            <p>A progress bar or indicator nested within a progress area.</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -177,8 +177,10 @@
                 <li>
                   <pre>
                   <xmp>
-                  <div class="score-youtube-video (custom class)">
-                    <iframe src="..." class="embed-responsive-item"></iframe>
+                  <div class="score-component score-progress-bar progress-bar" role="progressbar" aria-valuenow=""
+                       aria-valuemin="0"
+                       aria-valuemax="100" style="width: 100%">
+                    <span class="sr-only">% Complete</span>
                   </div>
                   </xmp>
                 </pre>
@@ -190,9 +192,15 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <div class="score-youtube-video">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/781lgt3VjTw"></iframe>
-          </div><!-- ./score-youtube-video -->
+          <div class="score-content-spot">
+            <h3>Score Progress area/bar</h3>
+          </div>
+          <div class="score-progress-area">
+            <div class="score-progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 50%">
+              <span class="sr-only">50% Complete</span>
+            </div><!-- ./score-progress-bar -->
+          </div><!-- ./score-progress-area -->
         </div>
       </div>
     </div>
@@ -203,7 +211,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

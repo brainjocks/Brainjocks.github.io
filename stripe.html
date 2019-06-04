@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Content Components</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Stripe Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,9 +25,9 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
-        Score Components &reg;
+        Score Components
       </a>
     </div>
     <div class="navbar-collapse collapse" id="mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="true" style="">
@@ -60,7 +60,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="containers.html">Containers</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -76,13 +76,13 @@
             <li>
               <a href="inner-structures.html">Inner Structures</a>
             </li>
-            <li>
+            <li class="active">
               <a href="stripe.html">Stripe</a>
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
-          <a href="containers.html">Content Components</a>
+        <li class="dropdown multi-level">
+          <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
             <span class="sr-only">toggle menu</span>
@@ -152,61 +152,74 @@
   </nav>
 </header>
 <div class="page-wrapper">
-  <div class="score-stripe pl-landing">
-    <div class="score-stripe">
-      <div class="container">
-        <div class="score-column1">
-          <div class="score-center">
-            <ol class="score-breadcrumb pl-breadcrumb">
-              <li class="active">Content Components</li>
-            </ol>
-            <div class="score-content-spot">
-              <h1>Content Components</h1>
-              <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, earum laborum perferendis
-                perspiciatis quasi quis rem repudiandae sed similique, sint temporibus voluptatem! Eaque, et odio quis
-                quos sapiente tempora veritatis.</strong></p>
+  <div class="container">
+    <div class="score-column1">
+      <div class="score-center">
+        <ol class="score-breadcrumb pl-breadcrumb">
+          <li>
+            <a href="containers.html">Containers</a>
+          </li>
+          <li class="active">Stripes</li>
+        </ol>
+        <div class="score-document-header pl-document-header">
+          <h1>Stripes</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="score-pl-component"> <!-- Full width version includes 1 column page layout container around .caption -->
+    <div class="container">
+      <div class="score-column1">
+        <div class="score-center">
+          <div class="score-pl-caption">
+            <h3>Stripe</h3>
+            <p>Stripe is a container used for inserting page wide color or background images</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-stripe (custom class)
+                            (background class)" style="">
+                      ...
+                  </div>
+                  </xmp>
+                </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Component Style Guide</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="score-column2 equal">
-        <div class="score-left">
-          <div class="score-content-spot">
-            <h2>SCORE version 3.1</h2>
-            <p>Check out what's new with SCORE 3.1! <a href="#">View release notes</a></p>
-          </div>
-        </div>
-        <div class="score-right"></div>
-      </div>
-      <div class="score-column2 equal">
-        <div class="score-left">
-          <div class="score-content-spot">
-            <h2>Developers</h2>
-            <p>Familiarize yourself with the following:</p>
-            <ul>
-              <li>Get an overview of our Markup and Style guidelines including the class naming conventions used in our
-                CSS.
-              </li>
-              <li>Review the Components; each component provides semantically correct and accessible markup and
-                documentation.
-              </li>
-              <li>Dive into the platform-specific getting started steps below.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="score-right">
-          <div class="score-content-spot">
-            <h2>Designers</h2>
-            <p>Start with the following:</p>
-            <ul>
-              <li>Explore the Guidelines to learn the Score Component design patterns and principles.
-              </li>
-              <li>Review the Components section, to familiarize yourself with the existing components which you can
-                incorporate into your designs.
-              </li>
-            </ul>
+    <!-- Place holder for full width components -->
+    <div class="score-stripe cover"
+         style="background-image: url('https://picsum.photos/id/1021/2048/1206');">
+      <div class="container">
+        <div class="score-column1">
+          <div class="score-center">
+            <div class="score-hero" style="background: rgba(255,255,255, 0.25); border: none;">
+              <!--<div class="score-hero-image">-->
+              <!--<img src="http://placehold.it/477x477" alt="" />-->
+              <!--</div>-->
+              <h1>Hero (inside Stripe w/ Full Page)</h1>
+              <h3>Section Hero subtitle</h3>
+              <div class="score-hero-body">
+                <p>Hero body text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequatur fuga hic iste
+                  quo? Amet ducimus libero minus nemo nobis numquam odio repudiandae rerum temporibus vel! Ad corporis
+                  eum ipsum?</p>
+              </div>
+              <div class="score-call-to-action">
+                <a href="/" class="score-button">Button</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -218,7 +231,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">
@@ -232,8 +245,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-<script src="../js/vendor/jquery.ellipsis.min.js"></script>
-<script src="../js/vendor/bootstrap-slider-min.js"></script>
 <script>
     $(function () {
         //prevents dropdown from closing when clicked inside
@@ -241,6 +252,7 @@
             e.stopPropagation();
         });
 
+        //Score Components dropdown animation
         $('.dropdown-toggle').click(function () {
             $(this).next('.dropdown-menu').slideToggle(300);
         });

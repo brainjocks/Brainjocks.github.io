@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Containers
-  </title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Highlight Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -26,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -61,7 +60,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level">
           <a href="containers.html">Containers</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -82,7 +81,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -101,7 +100,7 @@
             <li>
               <a href="lead.html">Lead/Plain Text</a>
             </li>
-            <li>
+            <li class="active">
               <a href="highlights.html">Features/Highlights</a>
             </li>
             <li>
@@ -153,66 +152,72 @@
   </nav>
 </header>
 <div class="page-wrapper">
-  <div class="score-stripe pl-landing">
-    <div class="score-stripe">
-      <div class="container">
-        <div class="score-column1">
-          <div class="score-center">
-            <ol class="score-breadcrumb pl-breadcrumb">
-              <li class="active">Containers</li>
-            </ol>
-            <div class="score-content-spot">
-              <h1>Containers</h1>
-              <p><strong>Containers is the name given to components that are generally designed to contain other components.
-                These are further divided into groups that define where these items are typically used within a page
-                structure,
-                although these decisions can be changed by the implementing team by modifying the CSS / LESS
-                implementation, and by
-                adding additional classes to create specialized versions of these renderings. Also, the list can be
-                supplemented by
-                adding new renderings for specific tenant websites or for the enterprise.</strong></p>
+  <div class="container">
+    <div class="score-column1">
+      <div class="score-center">
+        <ol class="score-breadcrumb pl-breadcrumb">
+          <li>
+            <a href="content-components.html">Content Components</a>
+          </li>
+          <li class="active">Highlights</li>
+        </ol>
+        <div class="score-document-header pl-document-header">
+          <h1>Features / Highlights</h1>
+        </div>
+        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+          <div class="score-pl-caption">
+            <h3>Highlight Base Component</h3>
+            <p>A highlight is a generic content element that is meant to highlight an item with a picture, title,
+              description and
+              one or more call to action elements.</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <pre>
+                <xmp>
+                <div class="score-highlight (custom class)">
+                  <div class="score-highlight-header">
+                    ...
+                  </div>
+                  <img src="..." alt="...">
+                  <div class="caption">
+                    <h2>...</h2>
+                    <div class="score-highlight-body">
+                      ...
+                    </div>
+                    <div class="score-call-to-action">
+                      ...
+                    </div>
+                  </div>
+                </div>
+                </xmp>
+              </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Component Style Guide</a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="score-column2 equal">
-        <div class="score-left">
-          <div class="score-content-spot">
-            <h2>SCORE version 3.1</h2>
-            <p>Check out what's new with SCORE 3.1! <a href="#">View release notes</a></p>
-          </div>
-        </div>
-        <div class="score-right"></div>
-      </div>
-      <div class="score-column2 equal">
-        <div class="score-left">
-          <div class="score-content-spot">
-            <h2>Developers</h2>
-            <p>Familiarize yourself with the following:</p>
-            <ul>
-              <li>Get an overview of our Markup and Style guidelines including the class naming conventions used in our
-                CSS.
-              </li>
-              <li>Review the Components; each component provides semantically correct and accessible markup and
-                documentation.
-              </li>
-              <li>Dive into the platform-specific getting started steps below.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="score-right">
-          <div class="score-content-spot">
-            <h2>Designers</h2>
-            <p>Start with the following:</p>
-            <ul>
-              <li>Explore the Guidelines to learn the Score Component design patterns and principles.
-              </li>
-              <li>Review the Components section, to familiarize yourself with the existing components which you can
-                incorporate into your designs.
-              </li>
-            </ul>
+          <!-- Place holder for content components -->
+          <div class="score-highlight">
+            <div class="score-highlight-header">Highlight Header area</div>
+            <img class="img-responsive" src="http://placehold.it/1200x600&text=[highlight img]" alt="#">
+            <div class="caption">
+              <h2>Highlight Title h2</h2>
+              <div class="score-highlight-body">
+                <p>Highlight body text area, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac lectus id
+                  risus tincidunt aliquet
+                  non nec sem.</p>
+              </div>
+              <div class="score-call-to-action">
+                <a href="#" class="score-button">Learn More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,7 +229,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">
@@ -238,8 +243,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-<script src="../js/vendor/jquery.ellipsis.min.js"></script>
-<script src="../js/vendor/bootstrap-slider-min.js"></script>
 <script>
     $(function () {
         //prevents dropdown from closing when clicked inside
@@ -247,6 +250,7 @@
             e.stopPropagation();
         });
 
+        //Score Components dropdown animation
         $('.dropdown-toggle').click(function () {
             $(this).next('.dropdown-menu').slideToggle(300);
         });

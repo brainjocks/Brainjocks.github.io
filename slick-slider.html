@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Section Headers Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Slick Slider Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -91,7 +91,7 @@
             <li>
               <a href="document-headers.html">Document Headers</a>
             </li>
-            <li class="active">
+            <li>
               <a href="section-heading.html">Section Headers</a>
             </li>
             <li>
@@ -133,7 +133,7 @@
             <li>
               <a href="list-group.html">List Group</a>
             </li>
-            <li>
+            <li class="active">
               <a href="slick-slider.html">Slick Slider</a>
             </li>
             <li>
@@ -159,19 +159,16 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Section Headers</li>
+          <li class="active">Slick Slider</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Section Headers/Section Heroes</h1>
+          <h1>Slick Slider</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Section Header Base Component</h3>
-            <p>Allows inserting a page header that requires in addition to the title the subtitle.
-              Offers image,
-              secondary line
-              of h2 text and h3 line.
-              - all of which are not rendered if the corresponding fields are empty.</p>
+            <h3>Slick Slider Base Component</h3>
+            <p>Score slick slider is a container to collect slick slider panels for a slick slider of information
+              The design and text of the panels will be a composition of other components.</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -179,103 +176,113 @@
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <!-- Rich text area -->
                   <pre>
-                <xmp>
-                <div class="score-document-header-with-subtitle (custom class)">
-                  <div class="score-header-image">
-                    <img src="..." class="(image style)" alt="#"/>
-                  </div>
-                  <h1>...
-                    <br/>
-                  </h1>
-                  <h2>...</h2>
-                </div>
-                </xmp>
-              </pre>
-                </li>
-              </ul>
-              <a class="score-button"
-                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
-                 target="_blank">Score Developer Documentation</a>
-            </div>
-          </div>
-          <!-- Place holder for content components -->
-          <div class="score-document-header">
-            <div class="score-header-image">
-              <img src="http://placehold.it/1200x600&text=[section-heading img]" class="img-responsive" alt=""/>
-            </div>
-            <h2>Section Header line 1
-              <br/>Section Header line 2</h2>
-            <h3>Section Header h2 line</h3>
-          </div><!-- ./doc header -->
-        </div>
-        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
-          <div class="score-pl-caption">
-            <h3>Section Hero Base Component</h3>
-            <p>Allows inserting a page header.
-              Offers image,
-              secondary line
-              of h2 text, h3, body text(Rich text editor), and a call to action.
-              - all of which are not rendered if the corresponding fields are empty.</p>
-            <div class="btn-group">
-              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                View Markup <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <!-- Rich text area -->
-                  <pre>
-                    <xmp>
-                    <div class="score-section-hero (custom class)" style="">
-                      <div class="score-hero-image">
-                        <img src="..." alt="...">
-                      </div>
-                      <h2>
-                        Title Line 1 <br/> Title Line 2 </h2>
-                      <h3>Hero Subtitle</h3>
-                      <div class="score-hero-body">
-                        <!--hero body-->
-                      </div>
-                      <div class="score-call-to-action">
-                        <!--call to action-->
+                  <xmp>
+                  <div class="score-slick-slider
+                   (amount-of-slides-to-show-class)
+                   slick-slider slick-dotted" id="">
+
+                    <!--previous button-->
+                    <button class="slick-prev slick-arrow"
+                            aria-label="Previous"
+                            type="button"
+                            style="">Previous</button>
+                    <!--container-->
+                    <div class="slick-list draggable">
+                      <div class="slick-track">
+                        <!--Slick Slider Panel components-->
+                        <div class="score-slick-slider-panel
+                        slick-slide (slick-cloned | slick-current | slick-active)"
+                             data-slick-index="..."
+                             aria-hidden="true|false">
+                          <!--any content-->
+                          ...
+                        </div>
+                        ...
                       </div>
                     </div>
-                    </xmp>
-                  </pre>
+                    <!--next button-->
+                    <button class="slick-next slick-arrow"
+                            aria-label="Next"
+                            type="button"
+                            style="">Next</button>
+                    <!--pager-->
+                    <ul class="slick-dots" role="tablist">
+                      <li role="presentation">
+                        <button type="button"
+                                role="tab"
+                                id="..."
+                                aria-controls="..."
+                                aria-label="1 of x">1</button>
+                      </li>
+                      ...
+                      <li role="presentation">
+                        <button type="button"
+                                role="tab" id="..."
+                                aria-controls="..."
+                                aria-label="x of x"
+                                aria-selected="...">x</button>
+                      </li>
+                    </ul>
+                  </div>
+                  </xmp>
+                </pre>
                 </li>
               </ul>
               <a class="score-button"
                  href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
-                 target="_blank">Score Developer Documentation</a>
+                 target="_blank">Component Style Guide</a>
             </div>
           </div>
           <!-- Place holder for content components -->
-          <div class="score-section-hero" style="color:#000000; background-color: #efefef;">
-            <div class="score-hero-image">
-              <img src="http://placehold.it/1920x630&text=[section-hero img]" class="img-responsive" alt="">
+          <div class="score-slick-slider thumbnail-slick-slider" style="margin-bottom: 30px;">
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
             </div>
-            <h2>Hero Header line 1
-              <br>Hero Header line 2</h2>
-            <h3>Hero subtitle</h3>
-            <div class="score-hero-body">
-              Hero body text. Lorem ipsum dolor sit amet.
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
             </div>
-            <div class="score-call-to-action">
-              <a href="/" class="score-button">Button</a>
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
             </div>
-          </div><!-- ./score-hero -->
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
+            </div>
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
+            </div>
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
+            </div>
+            <div class="score-slick-slider-panel">
+              <div class="score-style-box" style="background-color: #777; height: 300px; width: 300px; margin: 16px;">
+                <img src="http://placehold.it/300x300&text=[slider img]" class="img-responsive" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <footer style="background-color: #F8F8F8;">
+</div>
+<footer style="background-color: #F8F8F8;">
   <div class="container">
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">
@@ -287,21 +294,34 @@
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-  <script>
-      $(function () {
-          //prevents dropdown from closing when clicked inside
-          $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
-              e.stopPropagation();
-          });
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+<script>
+    $(function () {
+        //prevents dropdown from closing when clicked inside
+        $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
+            e.stopPropagation();
+        });
 
-          //Score Components dropdown animation
-          $('.dropdown-toggle').click(function () {
-              $(this).next('.dropdown-menu').slideToggle(300);
-          });
+        //Score Components dropdown animation
+        $('.dropdown-toggle').click(function () {
+            $(this).next('.dropdown-menu').slideToggle(300);
+        });
 
-      });
-  </script>
+        var settings = {
+            autoplay: true,
+            arrows: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            variableWidth: true,
+            infinite: true,
+            centerMode: false
+        };
+
+        $(".score-slick-slider").slick(settings);
+
+    });
+</script>
 </body>
 </html>

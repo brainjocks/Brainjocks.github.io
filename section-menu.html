@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Lead Plain Text Examples</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>Section Menu Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -39,7 +39,7 @@
           <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
             Component Documentation Link</a>
         </li>
-        <li class="dropdown multi-level">
+        <li class="dropdown multi-level active">
           <a href="navigation.html">Navigation</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -49,7 +49,7 @@
             <li>
               <a href="bread-crumb.html">BreadCrumb</a>
             </li>
-            <li>
+            <li class="active">
               <a href="section-menu.html">Section Menu</a>
             </li>
             <li>
@@ -81,7 +81,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown multi-level active">
+        <li class="dropdown multi-level">
           <a href="content-components.html">Content Components</a>
           <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
             <span class="caret"></span>
@@ -97,7 +97,7 @@
             <li>
               <a href="content-spot.html">Content Spot</a>
             </li>
-            <li class="active">
+            <li>
               <a href="lead.html">Lead/Plain Text</a>
             </li>
             <li>
@@ -157,18 +157,21 @@
       <div class="score-center">
         <ol class="score-breadcrumb pl-breadcrumb">
           <li>
-            <a href="content-components.html">Content Components</a>
+            <a href="navigation.html">Navigation</a>
           </li>
-          <li class="active">Lead/Plain Text</li>
+          <li class="active">Section Menu</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>Lead / Plain Text</h1>
+          <h1>Section Menu</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Lead Base Component</h3>
-            <p>The Lead component renders a special paragraph that is tagged as a lead text to decorate an
-              element.</p>
+            <h3>Section Menu Base Component</h3>
+            <p>Section menu rendering that looks to parent pages to find the section menu root,
+              then renders the
+              "levels" of
+              children as menu items.
+            </p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -178,9 +181,23 @@
                 <li>
                   <pre>
                   <xmp>
-                  <p class="score-lead (custom class)">
-                    ...
-                  </p>
+                  <ul class="score-section-menu nav-pills" role="menu" style="box-shadow: none;">
+                    <li>
+                      <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 2</a>
+                    </li>
+                    <li class="active">
+                      <a href="#">Page 3</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 4</a>
+                    </li>
+                    <li>
+                      <a href="#">Page 5</a>
+                    </li>
+                  </ul><!-- /.nav-pills -->
                   </xmp>
                 </pre>
                 </li>
@@ -191,36 +208,24 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <p class="score-lead">The Lead component renders a special paragraph that is tagged as a lead text
-            element.
-          </p><!-- ./score-lead -->        </div>
-        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
-          <div class="score-pl-caption">
-            <h3>Plain Text Base Component</h3>
-            <p>Used to add plain text to the Composite Link component. Represents a span html tag inside a link.</p>
-            <div class="btn-group">
-              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                View Markup <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <pre>
-                  <xmp>
-                    <span class="">...</span>
-                  </xmp>
-                  </pre>
-                </li>
-              </ul>
-              <a class="score-button"
-                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
-                 target="_blank">Component Style Guide</a>
-            </div>
-          </div>
-          <!-- Place holder for content components -->
-          <p class="score-lead">Used to add plain text to the Composite Link component. Represents a span html tag
-            inside a link.
-          </p><!-- ./score-plain-text -->        </div>
+          <ul class="score-section-menu nav-pills" role="menu" style="box-shadow: none;">
+            <li>
+              <a href="#">Page 1</a>
+            </li>
+            <li>
+              <a href="#">Page 2</a>
+            </li>
+            <li class="active">
+              <a href="#">Page 3</a>
+            </li>
+            <li>
+              <a href="#">Page 4</a>
+            </li>
+            <li>
+              <a href="#">Page 5</a>
+            </li>
+          </ul><!-- /.nav-pills -->
+        </div>
       </div>
     </div>
   </div>
@@ -230,7 +235,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">

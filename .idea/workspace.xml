@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8df141c-32bf-4e2d-96b4-d0dadb5aca1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_html/accordions.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/accordions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/bread-crumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/bread-crumb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/containers.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/containers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/content-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/content-components.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/content-spot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/content-spot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/document-headers.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/document-headers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/highlights.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/highlights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/inner-structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/inner-structures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/lead.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/list-group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/navbars.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/navbars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/page-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/page-elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/page-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/page-layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/panels.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/panels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/progress-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/progress-bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/section-heading.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/section-heading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/section-hero-poc.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/section-hero-poc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/section-menu-stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/section-menu-stacked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/section-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/section-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/slick-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/slick-slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/stripe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/stripe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/tab-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/tab-components.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_html/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/videos.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_html/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="207" column="58" lean-forward="true" selection-start-line="207" selection-start-column="58" selection-end-line="207" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index.html</find>
+      <find>../css/vendor/bootstrap-slider.min.css</find>
+      <find>../css/main.css</find>
+      <find>../css/pattern_library.css</find>
+      <find>../img/brainjocks-score-logo.svg</find>
+      <find>../js/vendor/jquery.ellipsis.min.js</find>
+      <find>../js/vendor/bootstrap-slider-min.js</find>
+      <find>../img/map.png</find>
+      <find>&lt;img</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>css/vendor/bootstrap-slider.min.css</replace>
+      <replace>css/main.css</replace>
+      <replace>css/pattern_library.css</replace>
+      <replace>img/brainjocks-score-logo.svg</replace>
+      <replace>js/vendor/jquery.ellipsis.min.js</replace>
+      <replace>js/vendor/bootstrap-slider-min.js</replace>
+      <replace>img/map.png</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/_html</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_html/index.html" />
+        <option value="$PROJECT_DIR$/_html/map.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="66" />
@@ -9,14 +107,119 @@
     <option name="width" value="1661" />
     <option name="height" value="1321" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Brainjocks.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brainjocks.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brainjocks.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brainjocks.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Brainjocks.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Brainjocks.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8df141c-32bf-4e2d-96b4-d0dadb5aca1b" name="Default Changelist" comment="" />
+      <created>1559681146355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559681146355</updated>
+      <workItem from="1559681147503" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="713000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="30" width="1661" height="1321" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="GraphQL" />
+      <window_info anchor="bottom" id="CSS-X-Fire" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_html/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="207" column="58" lean-forward="true" selection-start-line="207" selection-start-column="58" selection-end-line="207" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

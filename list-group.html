@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Tab Example</title>
-  <link href="../css/vendor/bootstrap-slider.min.css">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="../css/pattern_library.css">
+  <title>List Group Example</title>
+  <link href="css/vendor/bootstrap-slider.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/pattern_library.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
         rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="/pattern-library" class="navbar-brand">
-        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+        <img src="img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
 ">
         Score Components
       </a>
@@ -124,13 +124,13 @@
             <li>
               <a href="accordions.html">Accordions</a>
             </li>
-            <li class="active">
+            <li>
               <a href="tab-components.html">Tab Components</a>
             </li>
             <li>
               <a href="carousel.html">Carousel</a>
             </li>
-            <li>
+            <li class="active">
               <a href="list-group.html">List Group</a>
             </li>
             <li>
@@ -159,16 +159,16 @@
           <li>
             <a href="content-components.html">Content Components</a>
           </li>
-          <li class="active">Tab Component</li>
+          <li class="active">List Group</li>
         </ol>
         <div class="score-document-header pl-document-header">
-          <h1>iFrame</h1>
+          <h1>List Group</h1>
         </div>
         <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
           <div class="score-pl-caption">
-            <h3>Tab Base Component</h3>
-            <p>A Tabset is a container that consists of tab panels
-              A Tab is the child rendering for the tabset representing a single panel of content.</p>
+            <h3>List Group Base Component</h3>
+            <p>Container for creating a list group - group of items shown in a flattened list.
+              Used for creating list groups items</p>
             <div class="btn-group">
               <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
                       aria-expanded="false">
@@ -178,26 +178,13 @@
                 <li>
                   <pre>
                   <xmp>
-                  <div class="score-tab (custom class)" id="...">
-                  <div class="nav-tabs-wrapper-outer">
-                    <div class="nav-tabs-wrapper-inner">
-                      <ul class="nav nav-tabs" role="tablist">
-                        <!-- tab links -->
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="tab-content-wrapper-outer">
-                    <div class="tab-content-wrapper-inner">
-                      <div class="tab-content">
-                        <!-- tab panel component -->
-                        <div id="..." class="tab-pane score-tab-panel
-                        (active) (custom class)">
-                          ...
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  <ul class="score-list-group (custom class)">
+                    <!--list group item components-->
+                   <li class="score-list-group-item (custom class)">
+                    <h4 class="list-group-item-heading">...</h4>
+                     <!--content-->
+                    </li>
+                  </ul>
                   </xmp>
                 </pre>
                 </li>
@@ -208,84 +195,22 @@
             </div>
           </div>
           <!-- Place holder for content components -->
-          <div class="score-tab" id="#">
-            <div class="nav-tabs-wrapper-outer">
-              <div class="nav-tabs-wrapper-inner">
-                <ul class="nav nav-tabs" role="tablist">
-                  <li class="active">
-                    <a href="#pane1" data-toggle="tab">Tab 1</a>
-                  </li>
-                  <li>
-                    <a href="#pane2" data-toggle="tab">Tab 2</a>
-                  </li>
-                  <li>
-                    <a href="#pane3" data-toggle="tab">Tab 3</a>
-                  </li>
-                  <li>
-                    <a href="#pane4" data-toggle="tab">Tab 4</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="tab-content-wrapper-outer">
-              <div class="tab-content-wrapper-inner">
-                <div class="tab-content">
-                  <div id="pane1" class="score-tab-panel tab-pane fade active in">
-                    <div class="score-column1">
-                      <div class="score-center">
-                        <div class="score-content-spot">
-                          <h3>Title Example</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed
-                            purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit.
-                            Nullam ac vehicula tortor. Suspendisse convallis est malesuada magna varius fringilla.</p>
-                        </div>
-                        <a href="#" class="score-button">Button</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="pane2" class="score-tab-panel tab-pane fade">
-                    <div class="score-column1">
-                      <div class="score-center">
-                        <div class="score-content-spot">
-                          <h3>Title Example 2</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed
-                            purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit.
-                            Nullam ac vehicula tortor. Suspendisse convallis est malesuada magna varius fringilla.</p>
-                        </div>
-                        <a href="#" class="score-button btn-primary">Button Two</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="pane3" class="score-tab-panel tab-pane fade">
-                    <div class="score-column1">
-                      <div class="score-center">
-                        <div class="score-content-spot">
-                          <h3>Title Example 3</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed
-                            purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit.
-                            Nullam ac vehicula tortor. Suspendisse convallis est malesuada magna varius fringilla.</p>
-                        </div>
-                        <a href="#" class="score-button btn-success">Button Three</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="pane4" class="score-tab-panel tab-pane fade">
-                    <div class="score-column1">
-                      <div class="score-center">
-                        <div class="score-content-spot">
-                          <h3>Title Example 4</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam sed
-                            purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta enim blandit.
-                            Nullam ac vehicula tortor. Suspendisse convallis est malesuada magna varius fringilla.</p>
-                        </div>
-                        <a href="#" class="score-button btn-info">Button Four</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- /.tab-wrapper -->
+          <ul class="score-list-group">
+            <li class="score-list-group-item">
+              <h4 class="list-group-item-heading">SCORE List Group</h4>
+              List group item
+            </li>
+            <li class="score-list-group-item">
+              List group item without a heading
+            </li>
+            <li class="score-list-group-item">
+              List group item without a heading
+            </li>
+            <li class="score-list-group-item">
+              <h4 class="list-group-item-heading">SCORE List Group</h4>
+              List group item
+            </li>
+          </ul><!-- ./score-list-group -->
         </div>
       </div>
     </div>
@@ -296,7 +221,7 @@
     <div class="score-column3 wide-middle">
       <div class="score-left">
         <a href="https://brainjocks.com" class="score-image-button">
-          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+          <img class="img-responsive" src="img/brainjocks-logo-2019.png" alt="#">
         </a>
       </div>
       <div class="score-center">
