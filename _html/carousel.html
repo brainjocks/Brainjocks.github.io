@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Carousel Example</title>
+  <link href="../css/vendor/bootstrap-slider.min.css">
+  <link href="../css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pattern_library.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+</head>
+<body>
+<header class="score-header pl-header">
+  <nav class="score-main-menu-spider">
+    <div class="score-navbar-header">
+      <button type="button" class="score-hamburger navbar-toggle" data-toggle="collapse"
+              data-target="#mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/pattern-library" class="navbar-brand">
+        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+">
+        Score Components
+      </a>
+    </div>
+    <div class="navbar-collapse collapse" id="mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="true" style="">
+      <ul class="nav navbar-nav level-1">
+        <li class="score-main-menu-spider-root">
+          <a href="landing-page-poc.html">Overview</a>
+        </li>
+        <li>
+          <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
+            Component Documentation Link</a>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="navigation.html">Navigation</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="bread-crumb.html">BreadCrumb</a>
+            </li>
+            <li>
+              <a href="section-menu.html">Section Menu</a>
+            </li>
+            <li>
+              <a href="section-menu-stacked.html">Section Menu(stacked)</a>
+            </li>
+            <li>
+              <a href="navbars.html">Navbars</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="containers.html">Containers</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="page-elements.html">Page Elements</a>
+            </li>
+            <li>
+              <a href="page-layout.html">Page Layout</a>
+            </li>
+            <li>
+              <a href="inner-structures.html">Inner Structures</a>
+            </li>
+            <li>
+              <a href="stripe.html">Stripe</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level active">
+          <a href="content-components.html">Content Components</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="document-headers.html">Document Headers</a>
+            </li>
+            <li>
+              <a href="section-heading.html">Section Headers</a>
+            </li>
+            <li>
+              <a href="content-spot.html">Content Spot</a>
+            </li>
+            <li>
+              <a href="lead.html">Lead/Plain Text</a>
+            </li>
+            <li>
+              <a href="highlights.html">Features/Highlights</a>
+            </li>
+            <li>
+              <a href="iframe.html">iFrame</a>
+            </li>
+            <li>
+              <a href="map.html">Map</a>
+            </li>
+            <li>
+              <a href="image.html">Image</a>
+            </li>
+            <li>
+              <a href="videos.html">Videos</a>
+            </li>
+            <li>
+              <a href="buttons.html">Buttons</a>
+            </li>
+            <li>
+              <a href="panels.html">Panels</a>
+            </li>
+            <li>
+              <a href="accordions.html">Accordions</a>
+            </li>
+            <li>
+              <a href="tab-components.html">Tab Components</a>
+            </li>
+            <li class="active">
+              <a href="carousel.html">Carousel</a>
+            </li>
+            <li>
+              <a href="list-group.html">List Group</a>
+            </li>
+            <li>
+              <a href="slick-slider.html">Slick Slider</a>
+            </li>
+            <li>
+              <a href="progress-bar.html">Progress Bar</a>
+            </li>
+          </ul>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/custom-components">Components Example</a>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/Component Patterns">Component Patterns</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="page-wrapper">
+  <div class="container">
+    <div class="score-column1">
+      <div class="score-center">
+        <ol class="score-breadcrumb pl-breadcrumb">
+          <li>
+            <a href="content-components.html">Content Components</a>
+          </li>
+          <li class="active">Carousel</li>
+        </ol>
+        <div class="score-document-header pl-document-header">
+          <h1>Carousel</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="score-pl-component"> <!-- Full width version includes 1 column page layout container around .caption -->
+    <div class="container">
+      <div class="score-column1">
+        <div class="score-center">
+          <div class="score-pl-caption">
+            <h3>Carousel Base Component</h3>
+            <p>Represents a carousel widget. A container to collect carousel panels for a carousel of information
+              A generic container for rendering panels within the carousel. The rendering will set basic color and
+              background images, the design and text of the panels will be a composition of other score components.</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <pre>
+                    <xmp>
+                    <div class="carousel slide score-carousel (
+                  custom class)" id="...">
+                    <ol class="carousel-indicators">
+                      <li data-target="..." data-slide-to="..."></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <!--carousel pane components-->
+                      <div class="item score-carousel-pane
+                      (active class)
+                       (background class)
+                       (custom class)" style="">
+                        <div class="score-carousel-pane-body">
+                          <!--carousel pane content-->
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="sr-only">Previous slide</span>
+                    </a>
+                    <a class="carousel-control-prev-icon" href="">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="sr-only">Next slide</span>
+                    </a>
+                  </div>
+                    </xmp>
+                  </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Component Style Guide</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Place holder for full width components -->
+    <div class="score-carousel carousel slide" id="carousel" data-ride="carousel" data-interval="4000">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item score-carousel-pane cover active"
+             style="background-image: url('http://placehold.it/1920x630&text=[carousel bg img]');">
+          <div class="score-carousel-pane-body">
+            <div class="container">
+              <div class="score-column1">
+                <div class="score-center">
+                  <div class="score-section-header" style="margin-top: 120px;">
+                    <h2>Section Header;<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <a href="#" class="score-button">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item score-carousel-pane cover"
+             style="background-image: url('http://placehold.it/1920x630&text=[carousel bg img]');">
+          <div class="score-carousel-pane-body">
+            <div class="container">
+              <div class="score-column2 wide-left">
+                <div class="score-left">
+                  <div class="score-section-header" style="margin-top: 120px;">
+                    <h2>Section Header;<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <a href="#" class="score-button">Button</a>
+                  </div>
+                </div>
+                <div class="score-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item score-carousel-pane cover"
+             style="background-image: url('http://placehold.it/1920x630&text=[carousel bg img]');">
+          <div class="score-carousel-pane-body">
+            <div class="container">
+              <div class="score-column1">
+                <div class="score-center">
+                  <div class="score-section-header" style="margin-top: 120px;">
+                    <h2>Section Header;<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <a href="#" class="score-button">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div><!-- ./score-carousel -->
+  </div>
+</div>
+<footer style="background-color: #F8F8F8;">
+  <div class="container">
+    <div class="score-column3 wide-middle">
+      <div class="score-left">
+        <a href="https://brainjocks.com" class="score-image-button">
+          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+        </a>
+      </div>
+      <div class="score-center">
+        <p>© 2019 Brainjocks. All rights reserved. <a href="https://brainjocks.com/privacy">Privacy Policy</a></p>
+      </div>
+      <div class="score-right">
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+<script>
+    $(function () {
+        //prevents dropdown from closing when clicked inside
+        $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
+            e.stopPropagation();
+        });
+
+        //Score Components dropdown animation
+        $('.dropdown-toggle').click(function () {
+            $(this).next('.dropdown-menu').slideToggle(300);
+        });
+
+    });
+</script>
+</body>
+</html>

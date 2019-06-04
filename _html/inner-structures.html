@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Inner Structure Example</title>
+  <link href="../css/vendor/bootstrap-slider.min.css">
+  <link href="../css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pattern_library.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+</head>
+<body>
+<header class="score-header pl-header">
+  <nav class="score-main-menu-spider">
+    <div class="score-navbar-header">
+      <button type="button" class="score-hamburger navbar-toggle" data-toggle="collapse"
+              data-target="#mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/pattern-library" class="navbar-brand">
+        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+">
+        Score Components
+      </a>
+    </div>
+    <div class="navbar-collapse collapse" id="mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="true" style="">
+      <ul class="nav navbar-nav level-1">
+        <li class="score-main-menu-spider-root">
+          <a href="landing-page-poc.html">Overview</a>
+        </li>
+        <li>
+          <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
+            Component Documentation Link</a>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="navigation.html">Navigation</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="bread-crumb.html">BreadCrumb</a>
+            </li>
+            <li>
+              <a href="section-menu.html">Section Menu</a>
+            </li>
+            <li>
+              <a href="section-menu-stacked.html">Section Menu(stacked)</a>
+            </li>
+            <li>
+              <a href="navbars.html">Navbars</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level active">
+          <a href="containers.html">Containers</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="page-elements.html">Page Elements</a>
+            </li>
+            <li>
+              <a href="page-layout.html">Page Layout</a>
+            </li>
+            <li class="active">
+              <a href="inner-structures.html">Inner Structures</a>
+            </li>
+            <li>
+              <a href="stripe.html">Stripe</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="content-components.html">Content Components</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="document-headers.html">Document Headers</a>
+            </li>
+            <li>
+              <a href="section-heading.html">Section Headers</a>
+            </li>
+            <li>
+              <a href="content-spot.html">Content Spot</a>
+            </li>
+            <li>
+              <a href="lead.html">Lead/Plain Text</a>
+            </li>
+            <li>
+              <a href="highlights.html">Features/Highlights</a>
+            </li>
+            <li>
+              <a href="iframe.html">iFrame</a>
+            </li>
+            <li>
+              <a href="map.html">Map</a>
+            </li>
+            <li>
+              <a href="image.html">Image</a>
+            </li>
+            <li>
+              <a href="videos.html">Videos</a>
+            </li>
+            <li>
+              <a href="buttons.html">Buttons</a>
+            </li>
+            <li>
+              <a href="panels.html">Panels</a>
+            </li>
+            <li>
+              <a href="accordions.html">Accordions</a>
+            </li>
+            <li>
+              <a href="tab-components.html">Tab Components</a>
+            </li>
+            <li>
+              <a href="carousel.html">Carousel</a>
+            </li>
+            <li>
+              <a href="list-group.html">List Group</a>
+            </li>
+            <li>
+              <a href="slick-slider.html">Slick Slider</a>
+            </li>
+            <li>
+              <a href="progress-bar.html">Progress Bar</a>
+            </li>
+          </ul>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/custom-components">Example Components</a>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/Component Patterns">Component Patterns</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="page-wrapper">
+  <div class="container">
+    <div class="score-column1">
+      <div class="score-center">
+        <ol class="score-breadcrumb pl-breadcrumb">
+          <li>
+            <a href="containers.html">Containers</a>
+          </li>
+          <li class="active">Inner Structures</li>
+        </ol>
+        <div class="score-document-header pl-document-header">
+          <h1>Inner Structures</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="score-pl-component"> <!-- Full width version includes 1 column page layout container around .caption -->
+    <div class="container">
+      <div class="score-column1">
+        <div class="score-center">
+          <div class="score-pl-caption">
+            <h3>Inner Structure Base Components</h3>
+            <p>Inner Structure containers within the BootstrapUI rendering framework are designed to organize and
+              structure content within the page layout, header, or footer of the page.</p>
+            <p>In Twitter Bootstrap, these renderings constitute a row - based on the grid structure that is selected
+              for the project. This is determined by the CSS mix-ins you utilize. </p>
+            <p>The exception is the variable width column renderings. These renderings to not actually create a
+              bootstrap row.</p>
+            <p>In order to make these renderings flexible to adapt to any grid structure, these renderings do not use
+              the standard Bootstrap row and column syntax, rather mix-ins compiled into the CSS are used to determine
+              how each rendering maps to the grid structure for a specific tenant website using SCORE.</p>
+            <p>Inner structure renderings utilize a placeholder key strategy that is positional. Key values used are
+              values such as left, right, center, and center2. This strategy is deployed throughout this set of
+              renderings to assist in rendering compatibility and transformations.</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-column1 ">
+                    <div class="score-center">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column2 equal">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-variable score-variable">
+                  <div class="score-variable-row">
+                    <div class="score-variable-column">
+                      <div class="score-left">
+                      </div>
+                    </div>
+                    <div class="score-variable-column">
+                      <div class="score-right">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column2 wide-left">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column2 wide-right">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column3 equal">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-center">
+                      <h3>3 column equal</h3>
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column3 wide-middle">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-center">
+                      <h3>3 column equal</h3>
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-variable score-variable">
+                    <div class="score-variable-row">
+                      <div class="score-variable-column">
+                        <div class="score-left">
+                        </div>
+                      </div>
+                      <div class="score-variable-column">
+                        <div class="score-center">
+                        </div>
+                      </div>
+                      <div class="score-variable-column">
+                        <div class="score-right">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-column4 equal">
+                    <div class="score-left">
+                    </div>
+                    <div class="score-center">
+                    </div>
+                    <div class="score-center2">
+                    </div>
+                    <div class="score-right">
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                  <pre>
+                  <xmp>
+                  <div class="score-variable score-variable">
+                    <div class="score-variable-row">
+                      <div class="score-variable-column">
+                        <div class="score-left">
+                        </div>
+                      </div>
+                      <div class="score-variable-column">
+                        <div class="score-center">
+                        </div>
+                      </div>
+                      <div class="score-variable-column">
+                        <div class="score-center2">
+                        </div>
+                      </div>
+                      <div class="score-variable-column">
+                        <div class="score-right">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Component Style Guide</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Place holder for full width components -->
+    <div class="container">
+      <div class="score-column1">
+        <div class="score-center">
+          <div class="example-block">
+            <div class="score-column1 ">
+              <div class="score-center">
+                <h3>1 column</h3>
+              </div>
+            </div>
+            <div class="score-column2 equal">
+              <div class="score-left">
+                <h3>2 column equal</h3>
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-variable score-variable">
+              <div class="score-variable-row">
+                <div class="score-variable-column">
+                  <div class="score-left">
+                    <div class="score-center-text">
+                      <h3>2 column variable</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquid veritatis tempore,
+                        explicabo, placeat expedita esse minus voluptate alias, itaque dolorem in tempora voluptatem
+                        doloribus voluptatum culpa error autem consequatur?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-right">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla doloribus nemo, </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="score-column2 wide-left">
+              <div class="score-left">
+                <h3>2 column wide left</h3>
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-column2 wide-right">
+              <div class="score-left">
+                <h3>2 column wide right</h3>
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-column3 equal">
+              <div class="score-left">
+              </div>
+              <div class="score-center">
+                <h3>3 column equal</h3>
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-variable score-variable">
+              <div class="score-variable-row">
+                <div class="score-variable-column">
+                  <div class="score-left">
+                    <div class="score-content-spot">
+                      <p>Lorem ipsum dolor sit amet, </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-center">
+                    <div class="score-center-text">
+                      <div class="score-content-spot">
+                        <h3>3 column variable</h3>
+                        <p>Represents HTML three variable width column inner structure container. Columns will grow to
+                          size
+                          the content within
+                          each column.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-right">
+                    <div class="score-content-spot">
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="score-column3 wide-middle">
+              <div class="score-left">
+              </div>
+              <div class="score-center">
+                <div class="score-content-spot">
+                  <h3>3 column wide middle</h3>
+                </div>
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-column4 equal">
+              <div class="score-left">
+              </div>
+              <div class="score-center">
+                <div class="score-content-spot">
+                  <h3>4 column equal</h3>
+                </div>
+              </div>
+              <div class="score-center2">
+              </div>
+              <div class="score-right">
+              </div>
+            </div>
+            <div class="score-variable score-variable">
+              <div class="score-variable-row">
+                <div class="score-variable-column">
+                  <div class="score-left">
+                    <p>Lorem ipsum</p>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-center">
+                    <div class="score-center-text">
+                      <div class="score-content-spot">
+                        <h3>4 column variable</h3>
+                        <p>Represents HTML four variable width column inner structure container. Columns will grow to
+                          size
+                          the content within
+                          each column.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-center2">
+                    <p>Lorem ipsum</p>
+                  </div>
+                </div>
+                <div class="score-variable-column">
+                  <div class="score-right">
+                    <p>Loerem ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="background-color: #F8F8F8;">
+  <div class="container">
+    <div class="score-column3 wide-middle">
+      <div class="score-left">
+        <a href="https://brainjocks.com" class="score-image-button">
+          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+        </a>
+      </div>
+      <div class="score-center">
+        <p>© 2019 Brainjocks. All rights reserved. <a href="https://brainjocks.com/privacy">Privacy Policy</a></p>
+      </div>
+      <div class="score-right">
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+  <script>
+      $(function () {
+          //prevents dropdown from closing when clicked inside
+          $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
+              e.stopPropagation();
+          });
+
+          //Score Components dropdown animation
+          $('.dropdown-toggle').click(function () {
+              $(this).next('.dropdown-menu').slideToggle(300);
+          });
+
+      });
+  </script>
+</body>
+</html>

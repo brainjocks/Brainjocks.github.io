@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="34px" viewBox="0 0 124 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Hamburger Menu with Label</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hamburger-Menu-with-Label-Light" transform="translate(0.000000, 0.000000)">
+            <g id="Hamburger-Menu-with-Label">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="124" height="34" rx="4"></rect>
+                <text id="Menu" font-family="Montserrat-Regular, Montserrat" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="65" y="22">Menu</tspan>
+                </text>
+                <g id="Icons/Hamburger-Icon-Black" transform="translate(17.000000, 9.000000)" fill="#000000">
+                    <g id="Icons/Hamburger-Icon-White">
+                        <path d="M1.5,13.0909091 L30.5,13.0909091 C31.3284271,13.0909091 32,13.762482 32,14.5909091 C32,15.4193362 31.3284271,16.0909091 30.5,16.0909091 L1.5,16.0909091 C0.671572875,16.0909091 1.01453063e-16,15.4193362 0,14.5909091 C-1.01453063e-16,13.762482 0.671572875,13.0909091 1.5,13.0909091 Z M1.5,6.54545455 L22.5,6.54545455 C23.3284271,6.54545455 24,7.21702742 24,8.04545455 C24,8.87388167 23.3284271,9.54545455 22.5,9.54545455 L1.5,9.54545455 C0.671572875,9.54545455 7.85251176e-13,8.87388167 7.85149723e-13,8.04545455 C7.8504827e-13,7.21702742 0.671572875,6.54545455 1.5,6.54545455 Z M1.5,0 L30.5,0 C31.3284271,-1.52179594e-16 32,0.671572875 32,1.5 C32,2.32842712 31.3284271,3 30.5,3 L1.5,3 C0.671572875,3 1.01453063e-16,2.32842712 0,1.5 C-1.01453063e-16,0.671572875 0.671572875,1.52179594e-16 1.5,0 Z" id="Hamburger-Icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="8px" viewBox="0 0 5 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons/Iconschevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop-Compositions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Section-Title-and-Description" transform="translate(-286.000000, -260.000000)" fill="#85868A">
+            <g id="Section-Area-Default" transform="translate(79.996876, 102.999473)">
+                <g id="Assembly-Instructions" transform="translate(22.003124, 145.000527)">
+                    <g id="Icons/Iconschevron-down" transform="translate(186.500000, 16.000000) rotate(-360.000000) translate(-186.500000, -16.000000) translate(183.500000, 11.500000)">
+                        <path d="M2.6891042,6.72616427 L-0.871216536,3.16582522 C-1.04292782,2.99411394 -1.04292782,2.71572658 -0.871216536,2.54403361 L-0.455962115,2.12877919 C-0.284543946,1.95736102 -0.00672450373,1.95703127 0.1650967,2.1280464 L3.00000916,4.94967702 L5.8349033,2.1280464 C6.0067245,1.95703127 6.28454395,1.95736102 6.45596211,2.12877919 L6.87121654,2.54403361 C7.04292782,2.7157449 7.04292782,2.99413226 6.87121654,3.16582522 L3.31091412,6.72616427 C3.13920284,6.89785724 2.86081548,6.89785724 2.6891042,6.72616427 Z" id="Iconschevron-down" transform="translate(3.000000, 4.427467) rotate(-90.000000) translate(-3.000000, -4.427467) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

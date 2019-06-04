@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Panels Example</title>
+  <link href="../css/vendor/bootstrap-slider.min.css">
+  <link href="../css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pattern_library.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+  <style>
+    .score-style-box {
+      height: 300px;
+      margin-bottom: 30px;
+    }
+
+    .example-class-2 {
+      border: 2px solid red;
+    }
+
+    .example-class-3 {
+      border: 2px dotted #666;
+    }
+
+    @media (min-width: 992px) {
+      .score-column2.equal {
+        display: flex;
+      }
+
+      .score-column2.equal .score-left, .score-column2.equal .score-right {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+<header class="score-header pl-header">
+  <nav class="score-main-menu-spider">
+    <div class="score-navbar-header">
+      <button type="button" class="score-hamburger navbar-toggle" data-toggle="collapse"
+              data-target="#mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/pattern-library" class="navbar-brand">
+        <img src="../img/brainjocks-score-logo.svg" class="navbar-brand" alt="Brainjocks logo" style="
+">
+        Score Components
+      </a>
+    </div>
+    <div class="navbar-collapse collapse" id="mm-ad29d4ec-258c-4381-bf94-a9f53f89ba3e" aria-expanded="true" style="">
+      <ul class="nav navbar-nav level-1">
+        <li class="score-main-menu-spider-root">
+          <a href="landing-page-poc.html">Overview</a>
+        </li>
+        <li>
+          <a href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List">SCORE
+            Component Documentation Link</a>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="navigation.html">Navigation</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="bread-crumb.html">BreadCrumb</a>
+            </li>
+            <li>
+              <a href="section-menu.html">Section Menu</a>
+            </li>
+            <li>
+              <a href="section-menu-stacked.html">Section Menu(stacked)</a>
+            </li>
+            <li>
+              <a href="navbars.html">Navbars</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level">
+          <a href="containers.html">Containers</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="page-elements.html">Page Elements</a>
+            </li>
+            <li>
+              <a href="page-layout.html">Page Layout</a>
+            </li>
+            <li>
+              <a href="inner-structures.html">Inner Structures</a>
+            </li>
+            <li>
+              <a href="stripe.html">Stripe</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown multi-level active">
+          <a href="content-components.html">Content Components</a>
+          <a href="#" class="dropdown-toggle toggle-caret" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">toggle menu</span>
+          </a>
+          <ul class="dropdown-menu level-2" role="menu">
+            <li>
+              <a href="document-headers.html">Document Headers</a>
+            </li>
+            <li>
+              <a href="section-heading.html">Section Headers</a>
+            </li>
+            <li>
+              <a href="content-spot.html">Content Spot</a>
+            </li>
+            <li>
+              <a href="lead.html">Lead/Plain Text</a>
+            </li>
+            <li>
+              <a href="highlights.html">Features/Highlights</a>
+            </li>
+            <li>
+              <a href="iframe.html">iFrame</a>
+            </li>
+            <li>
+              <a href="map.html">Map</a>
+            </li>
+            <li>
+              <a href="image.html">Image</a>
+            </li>
+            <li>
+              <a href="videos.html">Videos</a>
+            </li>
+            <li>
+              <a href="buttons.html">Buttons</a>
+            </li>
+            <li class="active">
+              <a href="panels.html">Panels</a>
+            </li>
+            <li>
+              <a href="accordions.html">Accordions</a>
+            </li>
+            <li>
+              <a href="tab-components.html">Tab Components</a>
+            </li>
+            <li>
+              <a href="carousel.html">Carousel</a>
+            </li>
+            <li>
+              <a href="list-group.html">List Group</a>
+            </li>
+            <li>
+              <a href="slick-slider.html">Slick Slider</a>
+            </li>
+            <li>
+              <a href="progress-bar.html">Progress Bar</a>
+            </li>
+          </ul>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/custom-components">Example Components</a>
+        </li>
+        <li class=" " style="z-index: 1;">
+          <a href="/pattern-library/Component Patterns">Component Patterns</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="page-wrapper">
+  <div class="container">
+    <div class="score-column1">
+      <div class="score-center">
+        <ol class="score-breadcrumb pl-breadcrumb">
+          <li>
+            <a href="content-components.html">Content Components</a>
+          </li>
+          <li class="active">Panels</li>
+        </ol>
+        <div class="score-document-header pl-document-header">
+          <h1>Panels</h1>
+        </div>
+        <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+          <div class="score-pl-caption">
+            <h3>Style Box Base Components</h3>
+            <p>A style box creates a region of the screen where the user can select background image or color and text
+              color.</p>
+            <div class="btn-group">
+              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                View Markup <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-style-box"
+                       data-ux-module="score_bootstrap/Components/StyleBox"
+                       data-ux-state="loaded" style=""></div>
+                  </xmp>
+                </pre>
+                </li>
+              </ul>
+              <a class="score-button"
+                 href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                 target="_blank">Component Style Guide</a>
+            </div>
+          </div>
+          <!-- Place holder for content components -->
+          <div class="score-column3 equal">
+            <div class="score-left">
+              <div class="score-style-box cover"
+                   style="background-image: url('http://placehold.it/1920x630&text=[style box bg img]');">
+                <p class="score-lead">Style Box with BG image</p>
+              </div><!-- ./score-style-box -->
+            </div>
+            <div class="score-center">
+              <div class="score-style-box example-class-2">
+                <p class="score-lead">Style Box example 2</p>
+              </div><!-- ./score-style-box -->
+            </div>
+            <div class="score-right">
+              <div class="score-style-box example-class-3">
+                <p class="score-lead">Style Box example 3</p>
+              </div><!-- ./score-style-box -->
+            </div>
+          </div>
+        </div>
+        <div class="score-column2 equal">
+          <div class="score-left">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Alert Panel Base Components</h3>
+                <p>An alert is a formatted message with a flooded background color and an optional "dismiss" button that
+                  will hide it.</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-alert alert">
+                    <button type="button" class="close"
+                            data-dismiss="alert"
+                            aria-hidden="true">×</button>
+                        Score Alert Dismissable
+                  </div><!-- ./score-alert -->
+                  </xmp>
+                </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
+                </div>
+              </div>
+              <!-- Place holder for content components -->
+              <div class="score-alert alert" style="border: 1px solid #333;">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                Score Alert Dismissable
+              </div><!-- ./score-alert -->
+            </div>
+          </div>
+          <div class="score-right">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Information panel Base Components</h3>
+                <p>An informational panel that can be styled with header and optional footer text.</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle"
+                          type="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-panel (custom class)">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                        ...
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                      ...
+                    </div>
+                    <div class="panel-footer">
+                      ...
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
+                </div>
+              </div>
+              <!-- Place holder for content components -->
+              <div class="score-panel">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    Information panel
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ex recusandae odit eius minus
+                  exercitationem necessitatibus, accusamus, dolores expedita, saepe itaque. Animi sed ullam voluptatum
+                  expedita dolore aut dicta vel.
+                </div>
+                <div class="panel-footer">
+                  panel footer
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="score-column2 equal">
+          <div class="score-left">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Well Base Components</h3>
+                <p>A content well is a simple text wrapper that offsets and highlights the text</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                  <pre>
+                  <xmp>
+                  <div class="score-well (custom class)
+                  (background class)" style="">
+                    ...
+                  </div>
+                  </xmp>
+                </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
+                </div>
+              </div>
+              <!-- Place holder for content components -->
+              <div class="score-well" style="background-color: #efefef;">
+                <div class="score-content-spot">
+                  <h3>Well</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam
+                    sed purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta magna varius
+                    fringilla.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam
+                    sed purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta magna varius
+                    fringilla.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non rutrum leo. Nam
+                    sed purus in tortor porta cursus. Cras feugiat purus nec lacus suscipit, in porta magna varius
+                    fringilla.</p>
+                </div><!-- ./score-content-spot -->
+              </div><!-- ./score-well -->
+            </div>
+          </div>
+          <div class="score-right">
+            <div class="score-pl-component"> <!-- Standard version is placed directly inside of columns -->
+              <div class="score-pl-caption">
+                <h3>Modal Base Components</h3>
+                <p>Used to create a popup panel that can display various components</p>
+                <div class="btn-group">
+                  <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                    View Markup <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                  <pre>
+                  <xmp>
+                  <div aria-hidden="false" class="modal fade score-modal in" role="dialog" style="">
+                    <div class="modal-backdrop fade in" style=""></div>
+                    <div class="modal-dialog (modal size class)">
+                      <div class="modal-content">
+                        <div class="modal-header" id="">
+                          <!--Header Text-->
+                          <button type="button" class="close"
+                                  data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <!--Body-->
+                        </div>
+                        <div class="modal-footer score-call-to-action">
+                          <!--Call to action-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </xmp>
+                </pre>
+                    </li>
+                  </ul>
+                  <a class="score-button"
+                     href="https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List"
+                     target="_blank">Component Style Guide</a>
+                </div>
+              </div>
+              <!-- Place holder for content components -->
+              <a class="score-button" data-toggle="modal" data-target="#myModal">Open Large Modal</a>
+              <div aria-hidden="true" aria-labelledby="modal-00d73034-d9b4-4cd5-8e56-a519e6ca1ff0-Label"
+                   class="modal fade score-modal" id="myModal" role="dialog" tabindex="-1" style="display: none;">
+                <div class="modal-dialog modal-lg" style="margin-top: 360.5px;">
+                  <div class="modal-content">
+                    <div class="modal-header" id="modal-00d73034-d9b4-4cd5-8e56-a519e6ca1ff0-Label">
+                      Large Modal
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="score-content-spot">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus dignissim,
+                          cursus sapien
+                          fringilla, aliquam sapien. Morbi sed quam nisl. Fusce ante arcu, tempor non tincidunt vel,
+                          finibus eu diam.
+                          Sed in dignissim risus, sed condimentum nunc. Morbi vitae orci euismod, varius turpis in,
+                          sollicitudin
+                          odio. Etiam facilisis eleifend orci, sed sollicitudin nibh imperdiet id. Fusce sed est
+                          nunc.
+                          Integer
+                          posuere ac odio a gravida. Pellentesque habitant morbi tristique senectus et netus et
+                          malesuada fames ac
+                          turpis egestas. Vestibulum in faucibus odio. Cras porta lobortis enim sit amet aliquet.
+                        </p>
+                        <p>
+                          Mauris lacus dolor, dictum in ante id, porta bibendum dolor. Mauris rutrum dui ac imperdiet
+                          fringilla.
+                          Integer vulputate posuere massa at malesuada. Maecenas lobortis lacinia iaculis. Phasellus
+                          maximus euismod
+                          lacinia. Donec scelerisque lobortis massa. Aenean eu neque lacus. Etiam porta nisl non dui
+                          porta interdum.
+                          Maecenas sollicitudin, urna ut pellentesque finibus, dolor orci sagittis tortor, eget
+                          ornare
+                          felis risus et
+                          turpis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer score-call-to-action">
+                      <p>Modal Footer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="score-button" data-toggle="modal" data-target="#myModalSmall">Open Small Modal</a>
+              <div aria-hidden="true" aria-labelledby="myModalSmall" class="modal fade score-modal"
+                   data-ux-module="score_bootstrap/Components/Modal" data-ux-state="loaded" id="myModalSmall"
+                   role="dialog"
+                   tabindex="-1" style="display: none;">
+                <div class="modal-dialog modal-sm" style="margin-top: 180.5px;">
+                  <div class="modal-content">
+                    <div class="modal-header" id="">
+                      Small Modal
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="score-content-spot">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet lacus dignissim,
+                          cursus sapien
+                          fringilla, aliquam sapien. Morbi sed quam nisl. Fusce ante arcu, tempor non tincidunt vel,
+                          finibus eu diam.
+                          Sed in dignissim risus, sed condimentum nunc. Morbi vitae orci euismod, varius turpis in,
+                          sollicitudin
+                          odio. Etiam facilisis eleifend orci, sed sollicitudin nibh imperdiet id. Fusce sed est
+                          nunc.
+                          Integer
+                          posuere ac odio a gravida. Pellentesque habitant morbi tristique senectus et netus et
+                          malesuada fames ac
+                          turpis egestas. Vestibulum in faucibus odio. Cras porta lobortis enim sit amet aliquet.
+                        </p>
+                        <p>
+                          Mauris lacus dolor, dictum in ante id, porta bibendum dolor. Mauris rutrum dui ac imperdiet
+                          fringilla.
+                          Integer vulputate posuere massa at malesuada. Maecenas lobortis lacinia iaculis. Phasellus
+                          maximus euismod
+                          lacinia. Donec scelerisque lobortis massa. Aenean eu neque lacus. Etiam porta nisl non dui
+                          porta interdum.
+                          Maecenas sollicitudin, urna ut pellentesque finibus, dolor orci sagittis tortor, eget
+                          ornare
+                          felis risus et
+                          turpis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer score-call-to-action">
+                      <p>Modal Footer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer style="background-color: #F8F8F8;">
+  <div class="container">
+    <div class="score-column3 wide-middle">
+      <div class="score-left">
+        <a href="https://brainjocks.com" class="score-image-button">
+          <img class="img-responsive" src="../img/brainjocks-logo-2019.png" alt="#">
+        </a>
+      </div>
+      <div class="score-center">
+        <p>© 2019 Brainjocks. All rights reserved. <a href="https://brainjocks.com/privacy">Privacy Policy</a></p>
+      </div>
+      <div class="score-right">
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+<script>
+    $(function () {
+        //prevents dropdown from closing when clicked inside
+        $(document).on('click', '.score-megamenu .dropdown-menu', function (e) {
+            e.stopPropagation();
+        });
+
+        //Score Components dropdown animation
+        $('.dropdown-toggle').click(function () {
+            $(this).next('.dropdown-menu').slideToggle(300);
+        });
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿.score-like {
+    @extend .default-like; //inherit default SCORE styles
+
+    &:hover {
+    }
+
+    &:focus, &:active:focus {
+    }
+
+    &.active {
+
+        &:hover {
+        }
+
+        .icon {
+        }
+
+    }
+
+    .icon {
+    }
+
+    .count {
+    }
+
+}
