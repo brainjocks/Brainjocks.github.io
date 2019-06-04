@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8df141c-32bf-4e2d-96b4-d0dadb5aca1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/accordions.html" beforeDir="false" afterPath="$PROJECT_DIR$/accordions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bread-crumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/bread-crumb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers.html" beforeDir="false" afterPath="$PROJECT_DIR$/containers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/content-components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content-spot.html" beforeDir="false" afterPath="$PROJECT_DIR$/content-spot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-headers.html" beforeDir="false" afterPath="$PROJECT_DIR$/document-headers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/highlights.html" beforeDir="false" afterPath="$PROJECT_DIR$/highlights.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inner-structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner-structures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/list-group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbars.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panels.html" beforeDir="false" afterPath="$PROJECT_DIR$/panels.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progress-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/progress-bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pattern_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pattern_library.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-heading.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-heading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-hero-poc.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-hero-poc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-menu-stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu-stacked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/slick-slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stripe.html" beforeDir="false" afterPath="$PROJECT_DIR$/stripe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/tab-components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos.html" afterDir="false" />
-    </list>
+    <list default="true" id="a8df141c-32bf-4e2d-96b4-d0dadb5aca1b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,16 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/pattern_library.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="384">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accordions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -106,12 +74,12 @@
       <find>../img/map-with-pins.png</find>
       <find>../img/brainjocks-logo-2019.png</find>
       <find>../img</find>
-      <find>level-2</find>
       <find>href=&quot;https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List&quot;</find>
       <find>&lt;a href=&quot;https://brainjocks.atlassian.net/wiki/spaces/SUD/pages/114524403/SCORE+Component+List&quot;&gt;</find>
       <find>&lt;a href=&quot;/pattern-library&quot; class=&quot;navbar-brand&quot;&gt;</find>
       <find>&lt;a href=&quot;/pattern-library&quot; class=&quot;navbar-brand&quot; target=&quot;blank&quot;&gt;</find>
       <find>&lt;a href=&quot;/&quot; class=&quot;navbar-brand&quot; target=&quot;blank&quot;&gt;</find>
+      <find>level-2</find>
     </findStrings>
     <replaceStrings>
       <replace>css/vendor/bootstrap-slider.min.css</replace>
@@ -219,12 +187,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559681146355</updated>
-      <workItem from="1559681147503" duration="3635000" />
+      <workItem from="1559681147503" duration="3969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3635000" />
+    <option name="totallyTimeSpent" value="3969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="120" y="0" width="1661" height="1321" extended-state="0" />
@@ -299,6 +267,13 @@
     <entry file="file://$PROJECT_DIR$/css/page_editor.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/accordions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -308,15 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/pattern_library.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accordions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="384">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
