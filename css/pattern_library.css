@@ -41,6 +41,11 @@ body .page-wrapper {
   padding: 4px 10px;
   transition: all 0.3s ease;
 }
+@media (max-width: 400px) {
+  .pl-breadcrumb li {
+    margin: 0 20px 0 0;
+  }
+}
 .pl-breadcrumb li:before {
   display: none;
 }
@@ -53,6 +58,11 @@ body .page-wrapper {
   background: url("../img/pl-caret-right-grey.svg") center center no-repeat;
   background-size: 6px;
   content: "";
+}
+@media (max-width: 400px) {
+  .pl-breadcrumb li:after {
+    right: -15px;
+  }
 }
 .pl-breadcrumb li a {
   color: black;

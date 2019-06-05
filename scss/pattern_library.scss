@@ -62,6 +62,10 @@ body {
         padding: 4px 10px;
         transition: all 0.3s ease;
 
+        @media (max-width: 400px) {
+            margin: 0 20px 0 0;
+        }
+
         &:before {
             display: none;
         }
@@ -75,6 +79,10 @@ body {
             background: url('../img/pl-caret-right-grey.svg') center center no-repeat;
             background-size: 6px;
             content: "";
+
+            @media (max-width: 400px) {
+                right: -15px;
+            }
         }
 
         a {
@@ -836,6 +844,7 @@ footer {
                 padding-top: 26px;
             }
         }
+
         a {
             color: $pl-active-color;
         }
