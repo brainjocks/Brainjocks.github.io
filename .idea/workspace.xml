@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inner-structures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="376" column="78" selection-start-line="376" selection-start-column="78" selection-end-line="376" selection-end-column="78" />
+            <state relative-caret-position="373">
+              <caret line="371" column="48" lean-forward="true" selection-start-line="371" selection-start-column="48" selection-end-line="371" selection-end-column="48" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -281,18 +281,17 @@
       <option name="presentableId" value="Default" />
       <updated>1559681146355</updated>
       <workItem from="1559681147503" duration="5752000" />
-      <workItem from="1559829418598" duration="9069000" />
+      <workItem from="1559829418598" duration="9459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14821000" />
+    <option name="totallyTimeSpent" value="15211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="138" y="22" width="1661" height="1321" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988802" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32988802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32988802" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inner-structures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="376" column="78" selection-start-line="376" selection-start-column="78" selection-end-line="376" selection-end-column="78" />
+        <state relative-caret-position="373">
+          <caret line="371" column="48" lean-forward="true" selection-start-line="371" selection-start-column="48" selection-end-line="371" selection-end-column="48" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
