@@ -850,6 +850,17 @@ pre {
     }
 }
 
+.example-block-page {
+    .score-right,
+    .score-center,
+    .score-left,
+    .score-center2 {
+        height: 150px;
+        background-color: #f2f5f7;
+        border: 1px solid #777777;
+    }
+}
+
 footer {
     //image logo in footer
     .score-left {

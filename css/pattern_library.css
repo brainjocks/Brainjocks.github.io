@@ -725,6 +725,15 @@ pre.prettyprint {
   padding: 0 !important;
 }
 
+.example-block-page .score-right,
+.example-block-page .score-center,
+.example-block-page .score-left,
+.example-block-page .score-center2 {
+  height: 150px;
+  background-color: #f2f5f7;
+  border: 1px solid #777777;
+}
+
 footer .score-left .score-image-button {
   width: 200px;
   padding: 56px 0 44px 0;

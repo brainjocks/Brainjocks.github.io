@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8df141c-32bf-4e2d-96b4-d0dadb5aca1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/accordions.html" beforeDir="false" afterPath="$PROJECT_DIR$/accordions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bread-crumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/bread-crumb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content-spot.html" beforeDir="false" afterPath="$PROJECT_DIR$/content-spot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/pattern_library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pattern_library.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-headers.html" beforeDir="false" afterPath="$PROJECT_DIR$/document-headers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/highlights.html" beforeDir="false" afterPath="$PROJECT_DIR$/highlights.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/image.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inner-structures.html" beforeDir="false" afterPath="$PROJECT_DIR$/inner-structures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/list-group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-elements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panels.html" beforeDir="false" afterPath="$PROJECT_DIR$/panels.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progress-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/progress-bar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pattern_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pattern_library.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-heading.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-heading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-menu-stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu-stacked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/slick-slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stripe.html" beforeDir="false" afterPath="$PROJECT_DIR$/stripe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab-components.html" beforeDir="false" afterPath="$PROJECT_DIR$/tab-components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos.html" beforeDir="false" afterPath="$PROJECT_DIR$/videos.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="848" column="30" selection-start-line="848" selection-start-column="30" selection-end-line="848" selection-end-column="30" />
+            <state relative-caret-position="235">
+              <caret line="849" column="5" lean-forward="true" selection-start-line="849" selection-start-column="5" selection-end-line="849" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inner-structures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="357" column="20" lean-forward="true" selection-start-line="357" selection-start-column="20" selection-end-line="357" selection-end-column="20" />
+            <state relative-caret-position="228">
+              <caret line="357" column="18" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -75,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="394" selection-start-line="394" selection-end-line="394" />
+            <state relative-caret-position="488">
+              <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -166,6 +144,7 @@
       <find>Component Style Guide</find>
       <find>Score Developer Documentation</find>
       <find>&lt;pre&gt;</find>
+      <find>example-bl</find>
       <find>xmp</find>
     </findStrings>
     <replaceStrings>
@@ -225,8 +204,8 @@
         <option value="$PROJECT_DIR$/stripe.html" />
         <option value="$PROJECT_DIR$/tab-components.html" />
         <option value="$PROJECT_DIR$/videos.html" />
-        <option value="$PROJECT_DIR$/scss/pattern_library.scss" />
         <option value="$PROJECT_DIR$/page-layout.html" />
+        <option value="$PROJECT_DIR$/scss/pattern_library.scss" />
         <option value="$PROJECT_DIR$/inner-structures.html" />
       </list>
     </option>
@@ -303,18 +282,18 @@
       <option name="presentableId" value="Default" />
       <updated>1559681146355</updated>
       <workItem from="1559681147503" duration="5752000" />
-      <workItem from="1559829418598" duration="8031000" />
+      <workItem from="1559829418598" duration="8589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13783000" />
+    <option name="totallyTimeSpent" value="14341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="138" y="22" width="1661" height="1321" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988802" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32988802" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32988802" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -547,27 +526,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="848" column="30" selection-start-line="848" selection-start-column="30" selection-end-line="848" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="394" selection-start-line="394" selection-end-line="394" />
+        <state relative-caret-position="488">
+          <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="849" column="5" lean-forward="true" selection-start-line="849" selection-start-column="5" selection-end-line="849" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inner-structures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="357" column="20" lean-forward="true" selection-start-line="357" selection-start-column="20" selection-end-line="357" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="357" column="18" selection-start-line="357" selection-start-column="18" selection-end-line="357" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
