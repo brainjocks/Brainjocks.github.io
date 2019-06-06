@@ -803,11 +803,22 @@ body {
 pre {
     padding: 0;
     margin: 0;
-    background-color: #eee;
+    background-color: #FFFFFF;
+    border: none;
+    word-break: normal;
+    word-wrap: normal;
+    border-radius: 0;
+    overflow: auto;
+    white-space: nowrap;
 
     xmp {
         padding: 0;
         margin: 0;
+        white-space: pre;
+    }
+    &.prettyprint {
+        padding: 10px !important;
+        border: none !important;
     }
 }
 
@@ -819,8 +830,23 @@ pre {
     .score-center2 {
         height: 150px;
         background-color: #f2f5f7;
-        border: 1px solid #333;
+        border: 1px solid #777777;
+    }
+    .score-variable,
+    .score-column1,
+    .score-page-layout-column1,
+    .score-page-layout-column2,
+    .score-column2,
+    .score-page-layout-column3,
+    .score-column3,
+    .score-page-layout-column4,
+    .score-column4,
+    .score-column4.equal {
         margin-bottom: 30px;
+        border: 2px solid #000000;
+    }
+    .score-variable-column {
+        padding: 0 !important;
     }
 }
 

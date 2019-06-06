@@ -682,11 +682,22 @@ body .page-wrapper {
 pre {
   padding: 0;
   margin: 0;
-  background-color: #eee;
+  background-color: #FFFFFF;
+  border: none;
+  word-break: normal;
+  word-wrap: normal;
+  border-radius: 0;
+  overflow: auto;
+  white-space: nowrap;
 }
 pre xmp {
   padding: 0;
   margin: 0;
+  white-space: pre;
+}
+pre.prettyprint {
+  padding: 10px !important;
+  border: none !important;
 }
 
 .example-block .score-right,
@@ -695,8 +706,23 @@ pre xmp {
 .example-block .score-center2 {
   height: 150px;
   background-color: #f2f5f7;
-  border: 1px solid #333;
+  border: 1px solid #777777;
+}
+.example-block .score-variable,
+.example-block .score-column1,
+.example-block .score-page-layout-column1,
+.example-block .score-page-layout-column2,
+.example-block .score-column2,
+.example-block .score-page-layout-column3,
+.example-block .score-column3,
+.example-block .score-page-layout-column4,
+.example-block .score-column4,
+.example-block .score-column4.equal {
   margin-bottom: 30px;
+  border: 2px solid #000000;
+}
+.example-block .score-variable-column {
+  padding: 0 !important;
 }
 
 footer .score-left .score-image-button {
