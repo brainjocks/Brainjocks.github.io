@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/bread-crumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/bread-crumb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/buttons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pattern_library.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pattern_library.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-spot.html" beforeDir="false" afterPath="$PROJECT_DIR$/content-spot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document-headers.html" beforeDir="false" afterPath="$PROJECT_DIR$/document-headers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/highlights.html" beforeDir="false" afterPath="$PROJECT_DIR$/highlights.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/iframe.html" afterDir="false" />
@@ -15,13 +15,13 @@
       <change beforePath="$PROJECT_DIR$/lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/lead.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/list-group.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbars.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-elements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/page-layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/panels.html" beforeDir="false" afterPath="$PROJECT_DIR$/panels.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progress-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/progress-bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pattern_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pattern_library.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-hero-poc.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-hero-poc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-heading.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-heading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-hero-poc.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/section-menu-stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu-stacked.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/section-menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slick-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/slick-slider.html" afterDir="false" />
@@ -39,48 +39,93 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/highlights.html">
+        <entry file="file://$PROJECT_DIR$/page-layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+            <state relative-caret-position="254">
+              <caret line="460" selection-start-line="460" selection-end-line="460" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+        <entry file="file://$PROJECT_DIR$/panels.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="206">
+              <caret line="543" column="112" selection-start-line="543" selection-start-column="112" selection-end-line="543" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progress-bar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="227" column="112" selection-start-line="227" selection-start-column="112" selection-end-line="227" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/section-heading.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="295" column="62" selection-start-line="295" selection-start-column="62" selection-end-line="295" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/section-menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="251" column="112" selection-start-line="251" selection-start-column="112" selection-end-line="251" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/section-menu-stacked.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="251" column="112" selection-start-line="251" selection-start-column="112" selection-end-line="251" selection-end-column="112" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/pattern_library.css">
+        <entry file="file://$PROJECT_DIR$/slick-slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="-10">
+              <caret line="303" column="80" selection-start-line="303" selection-start-column="80" selection-end-line="303" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accordions.html">
+        <entry file="file://$PROJECT_DIR$/stripe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="206">
+              <caret line="247" column="112" selection-start-line="247" selection-start-column="112" selection-end-line="247" selection-end-column="112" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
+        <entry file="file://$PROJECT_DIR$/tab-components.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="206">
+              <caret line="312" column="112" selection-start-line="312" selection-start-column="112" selection-end-line="312" selection-end-column="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="220" column="8" lean-forward="true" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -110,6 +155,8 @@
       <find>pl-breadcrumb</find>
       <find>Component Style Guide</find>
       <find>Score Developer Documentation</find>
+      <find>&lt;pre&gt;</find>
+      <find>xmp</find>
     </findStrings>
     <replaceStrings>
       <replace>css/vendor/bootstrap-slider.min.css</replace>
@@ -127,6 +174,8 @@
       <replace>&lt;a href=&quot;/&quot; class=&quot;navbar-brand&quot; target=&quot;blank&quot;&gt;</replace>
       <replace>&lt;a href=&quot;index.html&quot; class=&quot;navbar-brand&quot; target=&quot;blank&quot;&gt;</replace>
       <replace>Component Example / Demo</replace>
+      <replace>&lt;pre class=&quot;prettyprint&quot;&gt;</replace>
+      <replace>&lt;script src=&quot;https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=html&quot;&gt;&lt;/script&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_html</dir>
@@ -143,15 +192,38 @@
         <option value="$PROJECT_DIR$/_html/map.html" />
         <option value="$PROJECT_DIR$/_html/navbars.html" />
         <option value="$PROJECT_DIR$/css/pattern_library.css" />
-        <option value="$PROJECT_DIR$/accordions.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/scss/pattern_library.scss" />
+        <option value="$PROJECT_DIR$/document-headers.html" />
+        <option value="$PROJECT_DIR$/content-spot.html" />
+        <option value="$PROJECT_DIR$/accordions.html" />
+        <option value="$PROJECT_DIR$/bread-crumb.html" />
+        <option value="$PROJECT_DIR$/buttons.html" />
+        <option value="$PROJECT_DIR$/carousel.html" />
+        <option value="$PROJECT_DIR$/highlights.html" />
+        <option value="$PROJECT_DIR$/iframe.html" />
+        <option value="$PROJECT_DIR$/image.html" />
+        <option value="$PROJECT_DIR$/inner-structures.html" />
+        <option value="$PROJECT_DIR$/lead.html" />
+        <option value="$PROJECT_DIR$/list-group.html" />
+        <option value="$PROJECT_DIR$/map.html" />
+        <option value="$PROJECT_DIR$/page-elements.html" />
+        <option value="$PROJECT_DIR$/page-layout.html" />
+        <option value="$PROJECT_DIR$/panels.html" />
+        <option value="$PROJECT_DIR$/progress-bar.html" />
+        <option value="$PROJECT_DIR$/section-heading.html" />
+        <option value="$PROJECT_DIR$/section-menu.html" />
+        <option value="$PROJECT_DIR$/section-menu-stacked.html" />
+        <option value="$PROJECT_DIR$/slick-slider.html" />
+        <option value="$PROJECT_DIR$/stripe.html" />
+        <option value="$PROJECT_DIR$/tab-components.html" />
+        <option value="$PROJECT_DIR$/videos.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="322" />
-    <option name="y" value="19" />
+    <option name="x" value="138" />
+    <option name="y" value="22" />
     <option name="width" value="1661" />
     <option name="height" value="1321" />
   </component>
@@ -221,25 +293,20 @@
       <option name="presentableId" value="Default" />
       <updated>1559681146355</updated>
       <workItem from="1559681147503" duration="5752000" />
+      <workItem from="1559829418598" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5752000" />
+    <option name="totallyTimeSpent" value="8038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="19" width="1661" height="1321" extended-state="0" />
+    <frame x="138" y="22" width="1661" height="1321" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23425077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32988802" />
-      <window_info anchor="bottom" id="GraphQL" />
-      <window_info anchor="bottom" id="CSS-X-Fire" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32988802" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -247,6 +314,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988802" />
+      <window_info anchor="bottom" id="GraphQL" order="9" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32988802" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -256,51 +329,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_html/section-hero-poc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_html/navbars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="207" column="28" selection-start-line="207" selection-start-column="28" selection-end-line="207" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_html/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="207" column="58" selection-start-line="207" selection-start-column="58" selection-end-line="207" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="235" column="13" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/page_editor.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accordions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/highlights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_html/section-hero-poc.html" />
+    <entry file="file://$PROJECT_DIR$/_html/navbars.html" />
+    <entry file="file://$PROJECT_DIR$/_html/map.html" />
+    <entry file="file://$PROJECT_DIR$/_html/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/page_editor.css" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -310,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/pattern_library.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="1560">
           <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
@@ -318,7 +351,203 @@
     <entry file="file://$PROJECT_DIR$/css/pattern_library.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accordions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="338" column="112" selection-start-line="338" selection-start-column="112" selection-end-line="338" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bread-crumb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="230" column="112" selection-start-line="230" selection-start-column="112" selection-end-line="230" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="326" column="112" selection-start-line="326" selection-start-column="112" selection-end-line="326" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="310" column="112" selection-start-line="310" selection-start-column="112" selection-end-line="310" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/containers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-components.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content-spot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="248" lean-forward="true" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document-headers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="407" column="114" lean-forward="true" selection-start-line="407" selection-start-column="114" selection-end-line="407" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/highlights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="245" column="112" selection-start-line="245" selection-start-column="112" selection-end-line="245" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="225" column="112" selection-start-line="225" selection-start-column="112" selection-end-line="225" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="240" column="112" selection-start-line="240" selection-start-column="112" selection-end-line="240" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inner-structures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="515" column="21" lean-forward="true" selection-start-line="515" selection-start-column="21" selection-end-line="515" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="246" column="112" selection-start-line="246" selection-start-column="112" selection-end-line="246" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list-group.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="237" column="112" selection-start-line="237" selection-start-column="112" selection-end-line="237" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="268" column="112" selection-start-line="268" selection-start-column="112" selection-end-line="268" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="460" selection-start-line="460" selection-end-line="460" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="543" column="112" selection-start-line="543" selection-start-column="112" selection-end-line="543" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progress-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="227" column="112" selection-start-line="227" selection-start-column="112" selection-end-line="227" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-hero-poc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-heading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="295" column="62" selection-start-line="295" selection-start-column="62" selection-end-line="295" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="251" column="112" selection-start-line="251" selection-start-column="112" selection-end-line="251" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section-menu-stacked.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="251" column="112" selection-start-line="251" selection-start-column="112" selection-end-line="251" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stripe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="247" column="112" selection-start-line="247" selection-start-column="112" selection-end-line="247" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tab-components.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="312" column="112" selection-start-line="312" selection-start-column="112" selection-end-line="312" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="220" column="8" lean-forward="true" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick-slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="303" column="80" selection-start-line="303" selection-start-column="80" selection-end-line="303" selection-end-column="80" />
         </state>
       </provider>
     </entry>
