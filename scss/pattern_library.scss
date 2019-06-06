@@ -859,6 +859,15 @@ pre {
         background-color: #f2f5f7;
         border: 1px solid #777777;
     }
+
+    .score-page-layout-column1,
+    .score-page-layout-column2,
+    .score-page-layout-column3,
+    .score-page-layout-column4,
+    .score-column4.equal {
+        margin-bottom: 30px;
+        border: 2px solid #000000;
+    }
 }
 
 footer {
